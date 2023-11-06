@@ -30,7 +30,7 @@ void banco_1h() {
   if (minuto == 0) {
     if (segundo < 10) {
       pson data;
-      data["altura"] = dist;
+      data["altura"] = altura;
       data["volume"] = volume;
       thing.write_bucket("dados_reserv_BJI", data);
       if (hora == 0) {
