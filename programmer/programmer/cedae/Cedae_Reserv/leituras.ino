@@ -15,6 +15,9 @@ void ler_volume() {
     float duration = pulseIn(echoPin, HIGH);
     float distance = duration * pulso / 2;
     altura = (dist - distance) / 100;
+    if (altura < 0) {
+      altura = md_ler[0];
+    }
 
     md_ler[2] = md_ler[1];
     md_ler[1] = md_ler[0];
