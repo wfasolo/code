@@ -1,0 +1,71 @@
+#include <ESP8266WiFi.h> // esp8266 library
+ #include <MySQL_Connection.h> // Arduino connects to Mysql's library
+#include <MySQL_Cursor.h>
+ #include <DHT.h> // DHT library 
+ #define DHTPIN 4 // Define the DHT pin
+ #define DHTTYPE DHT11 // Define the dht type
+
+ DHT dht(DHTPIN, DHTTYPE); // Initialize DHT11 sensor
+
+ IPAddress server_addr(192,168,###,###); // IP address of the computer where Mysql is installed
+ Char user[] = "root"; // Mysql username
+ Char password[] = "root"; // Login to Mysql password
+
+ // MySQL adds a command for data
+ // arduino_test, test1: data and tables just created
+char INSERT_SQL[] = "INSERT INTO  arduino_test.test1(tem,hem) VALUES ('%s','%s')";
+
+ Char ssid[] = "360WiFi"; // WiFi name
+ Char pass[] = "ss123456"; // WiFi password
+
+ WiFiClient client; // Declare a Mysql client, used in lianjieMysql
+MySQL_Connection conn(&client);
+MySQL_Cursor* cursor;		// 
+
+ / / Read the sensor data and write to the database
+void readAndRecordData(){
+				   Serial.print(dht.readTemperature()); // Print the read temperature in the serial port
+				  Serial.print(",\t"); 
+                                     Serial.println(dht.readHumidity()); // Print the read humidity in the serial port
+                                     Char buff[128]; // Define an array that stores sensor data
+                  char tem[5];			
+                  char hem[4];				
+                                     // Convert the floating point number collected by the sensor to a 3-digit integer and a decimal string into temp
+                  dtostrf(dht.readHumidity(),3,1,tem);
+                  dtostrf(dht.readTemperature(),2,1,hem);
+                                     Sprintf(buff, INSERT_SQL, tem, hem); // Tell tem and hem data in SQL
+                                     MySQL_Cursor *cur_mem = new MySQL_Cursor(&conn); // Create a Mysql instance
+                                     Cur_mem->execute(buff); // Insert the collected temperature and humidity values ​​into the database
+                                     Serial.println("Read sensor data and write to database");
+                                     Delete cur_mem; // delete the mysql instance to prepare for the next acquisition
+}
+
+void setup()
+{
+  Serial.begin(9600);
+     While (!Serial); // Wait for the release of the port
+  Serial.printf("\nConnecting to %s", ssid);
+     WiFi.begin(ssid, pass); // Connect WiFi
+     While (WiFi.status() != WL_CONNECTED) { // If the WiFi is not connected, it will cycle through the print points
+    delay(500);
+    Serial.print(".");
+  }
+
+  Serial.println("\nConnected to network");
+  Serial.print("My IP address is: ");
+     Serial.println(WiFi.localIP()); // Print the IP address of the development board
+
+  Serial.print("Connecting to SQL...  ");
+     If (conn.connect(server_addr, 3306, user, password)) // connect to the database
+    Serial.println("OK.");   
+  else
+    Serial.println("FAILED.");
+     Cursor = new MySQL_Cursor(&conn); // Create a database cursor instance
+}
+
+void loop()
+{
+  readAndRecordData();        
+  delay(5000);
+}
+ 
