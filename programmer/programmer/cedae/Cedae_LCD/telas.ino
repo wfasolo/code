@@ -1,5 +1,6 @@
 // Exibir valores na tela OLED
 void mostrarValoresNaTela(float taxaVazao, float alturaReser) {
+  float porc=(alturaReser/2.2)*100;
   float altura = (55 * alturaReser / 2.3);
   int vazao = 0.69 * pow(taxaVazao, 1.522);
   int hora = ntp.getHours();
@@ -21,7 +22,7 @@ void mostrarValoresNaTela(float taxaVazao, float alturaReser) {
   OLED.println("Reservatorio");
   OLED.setTextSize(2);
   OLED.setCursor(5, 50);
-  OLED.print(alturaReser);
+  OLED.print(porc);
   OLED.setTextSize(1);
   OLED.print(" m");
 
