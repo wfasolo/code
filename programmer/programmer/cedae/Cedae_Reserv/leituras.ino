@@ -27,6 +27,6 @@ void ler_volume() {
 
     volume = altura * comp * larg;
     thing.stream(thing["Volume"]);
-    Serial.println(distance);
+    //Serial.println(distance);
   }
 }
