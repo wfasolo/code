@@ -49,7 +49,7 @@ void loop() {
   if (multiWiFi.run() != WL_CONNECTED) {
     conectar();
   } else {
-    if (millis() - cont > 10000) {
+    if (millis() - cont > 7500) {
       digitalWrite(LED_BUILTIN, LOW);
       inicio();
       String valorVazao = jsonDaResposta(fazerRequisicaoHTTP(urlVazao));
@@ -57,9 +57,12 @@ void loop() {
       float taxaVazao = valorVazao.toFloat();
       float alturaReser = valorReser.toFloat();
       piscarTela(taxaVazao, alturaReser);
-      mostrarValoresNaTela(taxaVazao, alturaReser);
-      cont = millis();
-      digitalWrite(LED_BUILTIN, HIGH);
+      telavazao(taxaVazao);
+      if (millis() - cont > 15000) {
+        telareserv(alturaReser);
+        cont = millis();
+        digitalWrite(LED_BUILTIN, HIGH);
+      }
     }
   }
 }
