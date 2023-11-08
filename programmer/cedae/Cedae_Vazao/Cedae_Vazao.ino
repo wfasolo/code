@@ -76,7 +76,7 @@ void loop() {
   vazao_media();
   digitalWrite(LED_BUILTIN, HIGH);
 
-  if (millis() - cont > 5000) {
+  if (millis() - cont > 10000) {
     inicio();
     ler_vazao();
     cont = millis();

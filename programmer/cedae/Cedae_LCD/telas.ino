@@ -34,7 +34,7 @@ void telavazao(float taxaVazao) {
 
 // Exibir valores na tela OLED
 void telareserv(float alturaReser) {
-  int porc=(alturaReser/2.2)*100;
+  int porc = (alturaReser / 2.2) * 100;
   float altura = (55 * alturaReser / 2.3);
 
   int hora = ntp.getHours();
@@ -43,6 +43,7 @@ void telareserv(float alturaReser) {
   OLED.setTextColor(WHITE, BLACK);
 
   //valor do nivel do reservatorio
+  OLED.setTextSize(1);
   OLED.setCursor(2, 0);
   OLED.println("Reservatorio");
   OLED.setTextSize(4);
@@ -75,13 +76,14 @@ void telareserv(float alturaReser) {
 
 // Piscar tela
 void piscarTela(float taxaVazao, float alturaReser) {
-  if (taxaVazao < 0 || alturaReser >= 2.1) {
+  if (taxaVazao < 50 || alturaReser >= 2.1) {
     OLED.clearDisplay();
     OLED.setTextColor(WHITE, BLACK);
     OLED.setTextSize(3);
     OLED.println("Atencao");
     OLED.display();
-    delay(250);
     digitalWrite(4, LOW);
+  } else {
+    digitalWrite(4, HIGH);
   }
 }

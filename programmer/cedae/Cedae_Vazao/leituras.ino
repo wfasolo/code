@@ -14,10 +14,11 @@ void ler_vazao() {
   if (altura < 0) {
     altura = md_ler[0];
   }
-  md_ler[3] = md_ler[2];
   md_ler[2] = md_ler[1];
   md_ler[1] = md_ler[0];
-  altura = (altura + md_ler[0] + md_ler[1] + md_ler[2] + md_ler[3]) / 5;
   md_ler[0] = altura;
+
+  altura = (md_ler[0] + md_ler[1] + md_ler[2]) / 3;
+
   vazao = 0.69 * pow(altura, 1.522);
 }

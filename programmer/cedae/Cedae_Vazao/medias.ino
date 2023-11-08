@@ -28,7 +28,6 @@ void vazao_media() {
       i_h = 0;
       vz_hor = 0;
       cont_h = millis();
-      ntp.forceUpdate();
     }
   }
 

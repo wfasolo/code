@@ -1,7 +1,7 @@
 //**** Leituras dos Dados ****//
 void ler_volume() {
 
-  if (millis() - cont >= 20000) {
+  if (millis() - cont >= 60000) {
     digitalWrite(LED_BUILTIN, LOW);
     inicio();
     cont = millis();

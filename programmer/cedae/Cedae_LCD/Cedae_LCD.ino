@@ -14,9 +14,11 @@ WiFiUDP udp;
 NTPClient ntp(udp, "a.st1.ntp.br", -3 * 3600, 60000);
 Adafruit_SSD1306 OLED(128, 64, &Wire, -1);
 
-unsigned long cont = 0, cont_conec;
+unsigned long cont = 0, cont2 = 25000;
 int i_inic = 0;
 bool iniciar = false;
+float taxaVazao, alturaReser;
+String valorVazao, valorReser;
 String urlVazao = "http://api.thinger.io/v2/users/w_fasolo/devices/vazao_BJI/Altura?authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXYiOiJ2YXphb19CSkkiLCJpYXQiOjE2OTc5MDQ1NDIsImp0aSI6IjY1MzNmNzllNDljMTM3ZDI2MTA3ZDdlYSIsInN2ciI6InVzLWVhc3QuYXdzLnRoaW5nZXIuaW8iLCJ1c3IiOiJ3X2Zhc29sbyJ9.Qs9lkU-YfBH8PVaq7UMK_xxR_fKGd8manC1eo7imIio";
 String urlReser = "http://api.thinger.io/v2/users/w_fasolo/devices/reserv_BJI/Altura?authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXYiOiJyZXNlcnZfQkpJIiwiaWF0IjoxNjk3OTA0NDAzLCJqdGkiOiI2NTMzZjcxMzQ5YzEzN2QyNjEwN2Q3ZTkiLCJzdnIiOiJ1cy1lYXN0LmF3cy50aGluZ2VyLmlvIiwidXNyIjoid19mYXNvbG8ifQ.bm8kXw4JVOGlwUdCQReg4fQy368DNWSIYGK6Z4GhYDw";
 
@@ -49,20 +51,23 @@ void loop() {
   if (multiWiFi.run() != WL_CONNECTED) {
     conectar();
   } else {
-    if (millis() - cont > 7500) {
-      digitalWrite(LED_BUILTIN, LOW);
-      inicio();
-      String valorVazao = jsonDaResposta(fazerRequisicaoHTTP(urlVazao));
-      String valorReser = jsonDaResposta(fazerRequisicaoHTTP(urlReser));
-      float taxaVazao = valorVazao.toFloat();
-      float alturaReser = valorReser.toFloat();
+    if (millis() - cont > 30000) {
       piscarTela(taxaVazao, alturaReser);
+      inicio();
+      cont = millis();
+      valorVazao = jsonDaResposta(fazerRequisicaoHTTP(urlVazao));
+      valorReser = jsonDaResposta(fazerRequisicaoHTTP(urlReser));
+      taxaVazao = valorVazao.toFloat();
+      alturaReser = valorReser.toFloat();
+    }
+    if (millis() - cont2 >= 7500 & millis() - cont2 <= 8000) {
+      digitalWrite(LED_BUILTIN, LOW);
+
       telavazao(taxaVazao);
-      if (millis() - cont > 15000) {
-        telareserv(alturaReser);
-        cont = millis();
-        digitalWrite(LED_BUILTIN, HIGH);
-      }
+    } else if (millis() - cont2 >= 15000) {
+      telareserv(alturaReser);
+      cont2 = millis();
+      digitalWrite(LED_BUILTIN, HIGH);
     }
   }
 }

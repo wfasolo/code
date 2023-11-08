@@ -7,8 +7,6 @@ void conectar() {
   OLED.setTextSize(2);
   OLED.print("off line !");
   OLED.display();
-
-
   delay(100);
   WiFi.reconnect();
   iniciar = false;
