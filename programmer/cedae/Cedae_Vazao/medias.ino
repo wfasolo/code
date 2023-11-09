@@ -1,61 +1,39 @@
 //** Calcula a vazao Media  **//
 void vazao_media() {
-
-  // vazao dia
+  i_m++;
+  i_h++;
   i_d++;
   vz_dia += vazao;
-
-  if (millis() - cont_s >= 10000) {
-    vz_dia = (vz_dia / i_d);
-
-    if (millis() - cont_d >= 86400000) {
-      thing.stream(thing["Banco"]);
-      i_d = 0;
-      vz_dia = 0;
-      cont_d = millis();
-    }
-  }
-
-  // vazao hora
-  i_h++;
   vz_hor += vazao;
-
-  if (millis() - cont_s >= 10000) {
-    vz_hor = (vz_hor / i_h);
-
-    if (millis() - cont_h >= 3600000) {
-      thing.stream(thing["Banco"]);
-      i_h = 0;
-      vz_hor = 0;
-      cont_h = millis();
-    }
-  }
-
-  // vazao minuto
-  i_m++;
   vz_min += vazao;
 
-  if (millis() - cont_s >= 10000) {
-    vz_min = (vz_min / i_m);
+  thing.stream(thing["Vz_media"]);
 
-    if (millis() - cont_m >= 60000) {
-      thing.stream(thing["Banco"]);
-      i_m = 0;
-      vz_min = 0;
-      cont_m = millis();
+  vz_min2 = (vz_min / (i_m + 1));
+  thing.stream(thing["Vz_min"]);
+
+
+  vz_hor = (vz_hor / (i_h + 1));
+  thing.stream(thing["Vz_hor"]);
+  vz_hor = (vz_hor * (i_h + 1));
+
+  vz_dia = (vz_dia / (i_d + 1));
+  thing.stream(thing["Vz_dia"]);
+  vz_dia = (vz_dia * (i_d + 1));
+
+
+  if (segundo < 15) {  // vazao minuto
+    vz_min = (vz_min / (i_m + 1));
+    i_m = 0;
+    if (minuto == 0) {  // vazao hora
+      vz_hor = (vz_hor / (i_h + 1));
+      thing.write_bucket("dados_vazaobji", "Vz_hor");
+      i_h = 0;
+      if (hora == 0) {  // vazao dia
+
+        delay(100);
+        ESP.restart();
+      }
     }
-  }
-
-  // vazao 10 segundos
-  i_s++;
-  vz_seg += vazao;
-
-  if (millis() - cont_s >= 10000) {
-    vz_seg = (vz_seg / i_s);
-
-    thing.stream(thing["Vz_media"]);
-    i_s = 0;
-    vz_seg = 0;
-    cont_s = millis();
   }
 }

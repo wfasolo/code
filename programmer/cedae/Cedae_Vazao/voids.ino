@@ -24,28 +24,12 @@ void at_hora() {
   segundo = ntp.getSeconds();
 }
 
-//**** gravacao no banco de dados ****//
-void banco_1h() {
-  if (minuto == 0) {
-    if (segundo < 10) {
-      thing.write_bucket("dados_vazaobji", "Banco");
-      if (hora == 0) {
-        delay(100);
-        ESP.restart();
-      }
-    }
-  }
-}
-
 // parametros de iniciação //
 void inicio() {
   if (iniciar == false) {
     if (multiWiFi.run() == WL_CONNECTED) {
-
       ntp.forceUpdate();
-      cont_s = segundo * 1000;
-      cont_m = cont_s;
-      cont_h = (minuto * 60000) + cont_m;
+
       pson data;
       thing.get_property("parametro", data);
       dist = data["Distancia"];
