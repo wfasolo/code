@@ -1,10 +1,10 @@
 //**** Leituras dos Dados ****//
 void ler_volume() {
 
-  if (millis() - cont >= 60000) {
+  if ((minuto == 0) && (cont = 0)) {
     digitalWrite(LED_BUILTIN, LOW);
     inicio();
-    cont = millis();
+    cont = 1;
 
     digitalWrite(trigPin, LOW);
     delayMicroseconds(2);
@@ -28,5 +28,7 @@ void ler_volume() {
     volume = altura * comp * larg;
     thing.stream(thing["Volume"]);
     //Serial.println(distance);
+  } else {
+    cont = 0;
   }
 }

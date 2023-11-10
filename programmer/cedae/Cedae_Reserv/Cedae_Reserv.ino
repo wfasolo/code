@@ -17,7 +17,7 @@ bool forcereboot = false, iniciar = false;
 float altura = 0, pulso = 0, dist = 0, volume = 0, comp = 1, larg = 1;
 float md_ler[3] = { 1, 1, 1 };
 int dia = 0, hora = 0, minuto = 0, segundo = 30;
-int i_inic = 0, seg_ant = 0, cont = 10;
+int i_inic = 0, seg_ant = 0, cont = 0;
 
 #define USERNAME "w_fasolo"
 #define DEVICE_ID "reserv_BJI"
@@ -25,7 +25,7 @@ int i_inic = 0, seg_ant = 0, cont = 10;
 ThingerESP8266 thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL);
 
 void setup() {
-  Serial.begin(115200);
+  //Serial.begin(115200);
   pinMode(LED_BUILTIN, OUTPUT);
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);

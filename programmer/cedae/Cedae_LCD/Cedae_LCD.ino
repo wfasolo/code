@@ -19,11 +19,11 @@ int i_inic = 0;
 bool iniciar = false;
 float taxaVazao, alturaReser;
 String valorVazao, valorReser;
-String urlVazao = "http://api.thinger.io/v2/users/w_fasolo/devices/vazao_BJI/Altura?authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXYiOiJ2YXphb19CSkkiLCJpYXQiOjE2OTc5MDQ1NDIsImp0aSI6IjY1MzNmNzllNDljMTM3ZDI2MTA3ZDdlYSIsInN2ciI6InVzLWVhc3QuYXdzLnRoaW5nZXIuaW8iLCJ1c3IiOiJ3X2Zhc29sbyJ9.Qs9lkU-YfBH8PVaq7UMK_xxR_fKGd8manC1eo7imIio";
+String urlVazao = "http://api.thinger.io/v2/users/w_fasolo/devices/vazao_BJI/Vz_min?authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXYiOiJ2YXphb19CSkkiLCJpYXQiOjE2OTc5MDQ1NDIsImp0aSI6IjY1MzNmNzllNDljMTM3ZDI2MTA3ZDdlYSIsInN2ciI6InVzLWVhc3QuYXdzLnRoaW5nZXIuaW8iLCJ1c3IiOiJ3X2Zhc29sbyJ9.Qs9lkU-YfBH8PVaq7UMK_xxR_fKGd8manC1eo7imIio";
 String urlReser = "http://api.thinger.io/v2/users/w_fasolo/devices/reserv_BJI/Altura?authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXYiOiJyZXNlcnZfQkpJIiwiaWF0IjoxNjk3OTA0NDAzLCJqdGkiOiI2NTMzZjcxMzQ5YzEzN2QyNjEwN2Q3ZTkiLCJzdnIiOiJ1cy1lYXN0LmF3cy50aGluZ2VyLmlvIiwidXNyIjoid19mYXNvbG8ifQ.bm8kXw4JVOGlwUdCQReg4fQy368DNWSIYGK6Z4GhYDw";
 
 void setup() {
-  Serial.begin(115200);
+  //Serial.begin(115200);
   pinMode(4, OUTPUT);
 
   OLED.begin(SSD1306_SWITCHCAPVCC, 0x3C);

@@ -27,7 +27,9 @@ void vazao_media() {
     i_m = 0;
     if (minuto == 0) {  // vazao hora
       vz_hor = (vz_hor / (i_h + 1));
-      thing.write_bucket("dados_vazaobji", "Vz_hor");
+      pson data;
+      data["Vaz_Hora"] = vz_hor;
+      thing.write_bucket("dados_vazaobji", data);
       i_h = 0;
       if (hora == 0) {  // vazao dia
 
