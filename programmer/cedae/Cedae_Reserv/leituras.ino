@@ -1,7 +1,6 @@
 //**** Leituras dos Dados ****//
 void ler_volume() {
-
-  if ((minuto == 0) && (cont = 0)) {
+  if (segundo <= 5 && cont == 0) {
     digitalWrite(LED_BUILTIN, LOW);
     inicio();
     cont = 1;
@@ -26,9 +25,12 @@ void ler_volume() {
     altura = (md_ler[0] + md_ler[1] + md_ler[2]) / 3;
 
     volume = altura * comp * larg;
+
     thing.stream(thing["Volume"]);
-    //Serial.println(distance);
-  } else {
+    thing.stream(thing["Altura"]);
+   // Serial.println(distance);
+  }
+  if (segundo > 5) {
     cont = 0;
   }
 }

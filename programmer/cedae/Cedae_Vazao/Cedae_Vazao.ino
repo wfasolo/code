@@ -26,7 +26,7 @@ int i_d = 0, i_h = 0, i_m = 0, i_inic = 0;
 ThingerESP8266 thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL);
 
 void setup() {
-  //Serial.begin(115200);
+  Serial.begin(115200);
   pinMode(LED_BUILTIN, OUTPUT);
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);

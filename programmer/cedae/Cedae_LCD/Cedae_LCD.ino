@@ -1,4 +1,3 @@
-
 #include <ESP8266WiFiMulti.h>
 #include <ESP8266HTTPClient.h>
 #include <NTPClient.h>
@@ -14,8 +13,8 @@ WiFiUDP udp;
 NTPClient ntp(udp, "a.st1.ntp.br", -3 * 3600, 60000);
 Adafruit_SSD1306 OLED(128, 64, &Wire, -1);
 
-unsigned long cont = 0, cont2 = 25000;
-int i_inic = 0;
+unsigned long cont = 0, cont2 = 0;
+int i_inic = 0, est = 0;
 bool iniciar = false;
 float taxaVazao, alturaReser;
 String valorVazao, valorReser;
@@ -52,7 +51,7 @@ void loop() {
     conectar();
   } else {
     if (millis() - cont > 30000) {
-      piscarTela(taxaVazao, alturaReser);
+      //piscarTela(taxaVazao, alturaReser);
       inicio();
       cont = millis();
       valorVazao = jsonDaResposta(fazerRequisicaoHTTP(urlVazao));
@@ -60,14 +59,16 @@ void loop() {
       taxaVazao = valorVazao.toFloat();
       alturaReser = valorReser.toFloat();
     }
-    if (millis() - cont2 >= 7500 & millis() - cont2 <= 8000) {
+    if (millis() - cont2 >= 7500 && est == 0) {
       digitalWrite(LED_BUILTIN, LOW);
-
       telavazao(taxaVazao);
-    } else if (millis() - cont2 >= 15000) {
+      est = 1;
+    }
+    if (millis() - cont2 >= 15000) {
       telareserv(alturaReser);
       cont2 = millis();
       digitalWrite(LED_BUILTIN, HIGH);
+      est = 0;
     }
   }
 }

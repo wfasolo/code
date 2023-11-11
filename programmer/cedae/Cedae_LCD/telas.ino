@@ -1,7 +1,7 @@
 // Exibir valores na tela OLED
 void telavazao(float taxaVazao) {
 
-  int vazao = 0.69 * pow(taxaVazao, 1.522);
+  int vazao =taxaVazao;
   int hora = ntp.getHours();
   int minuto = ntp.getMinutes();
   OLED.clearDisplay();
@@ -35,7 +35,7 @@ void telavazao(float taxaVazao) {
 // Exibir valores na tela OLED
 void telareserv(float alturaReser) {
   int porc = (alturaReser / 2.2) * 100;
-  float altura = (55 * alturaReser / 2.3);
+  float altura = (55 * alturaReser / 2.4);
 
   int hora = ntp.getHours();
   int minuto = ntp.getMinutes();

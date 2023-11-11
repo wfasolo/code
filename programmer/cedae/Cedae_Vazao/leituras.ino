@@ -10,9 +10,9 @@ void ler_vazao() {
     digitalWrite(trigPin, HIGH);
     delayMicroseconds(10);
     digitalWrite(trigPin, LOW);
-    float duration = pulseIn(echoPin, HIGH);
+    long duration = pulseIn(echoPin, HIGH);
     float distance = duration * pulso / 2;
-
+    Serial.println(duration);
     altura = dist - distance;
     if (altura < 0) {
       altura = md_ler[0];
