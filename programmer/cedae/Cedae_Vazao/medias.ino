@@ -18,8 +18,10 @@ void vazao_media() {
   vz_hor = (vz_hor * (i_h + 1));
 
   vz_dia = (vz_dia / (i_d + 1));
-  thing.stream(thing["Vz_dia"]);
+  vol_trat = vz_dia * ((hora * 3.6) + (minuto * 0.06));
+  thing.stream(thing["Vol_trat"]);
   vz_dia = (vz_dia * (i_d + 1));
+
 
 
   if (segundo < 15) {  // vazao minuto

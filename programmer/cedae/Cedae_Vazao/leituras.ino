@@ -1,9 +1,10 @@
 //**** Leituras dos Dados ****//
-void ler_vazao() {
-  if (millis() - cont >= 15000) {
+void ler_vazao()
+{
+  if (millis() - cont >= 15000)
+  {
     cont = millis();
     digitalWrite(LED_BUILTIN, LOW);
-
 
     digitalWrite(trigPin, LOW);
     delayMicroseconds(2);
@@ -13,18 +14,19 @@ void ler_vazao() {
     long duration = pulseIn(echoPin, HIGH);
     float distance = duration * pulso / 2;
     Serial.println(duration);
-    altura = dist - distance;
-    if (altura < 0) {
-      altura = md_ler[0];
+    float altura2 = dist - distance;
+    if (altura2 < 0)
+    {
+      altura2 = md_ler[0];
     }
     md_ler[2] = md_ler[1];
     md_ler[1] = md_ler[0];
     md_ler[0] = altura;
 
-    altura = (md_ler[0] + md_ler[1] + md_ler[2]) / 3;
+    altura = (altura2 + md_ler[0] + md_ler[1] + md_ler[2]) / 4;
 
     vazao = 0.69 * pow(altura, 1.522);
-   
+
     inicio();
     vazao_media();
     digitalWrite(LED_BUILTIN, HIGH);

@@ -19,6 +19,7 @@ float md_ler[3] = { 25, 25, 25 };
 float vz_min = 100, vz_hor = 100, vz_dia = 100, vazao = 100, vz_min2 = 100;
 int dia = 0, hora = 0, minuto = 0, segundo = 30;
 int i_d = 0, i_h = 0, i_m = 0, i_inic = 0;
+int vol_trat;
 
 #define USERNAME "w_fasolo"
 #define DEVICE_ID "vazao_BJI"
@@ -56,8 +57,8 @@ void setup() {
   thing["Vz_hor"] >> [](pson &out) {
     out = int(vz_hor);
   };
-  thing["Vz_dia"] >> [](pson &out) {
-    out = int(vz_dia);
+  thing["Vol_trat"] >> [](pson &out) {
+    out = vol_trat;
   };
   thing["Altura"] >> [](pson &out) {
     out = altura;
