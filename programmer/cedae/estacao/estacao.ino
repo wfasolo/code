@@ -1,14 +1,18 @@
-#include <Time.h>
+#include <ESP8266WiFiMulti.h>
 #include <ThingerESP8266.h>
+#include <NTPClient.h>
+#include <WiFiUdp.h>
 #include <Adafruit_Sensor.h>
 #include <Adafruit_BMP280.h>
 #include <Adafruit_AHTX0.h>
-#include <ESP8266WiFi.h>
-#include <ESP8266WiFiMulti.h>
+
+ESP8266WiFiMulti multiWiFi;
+WiFiUDP udp;
+NTPClient ntp(udp, "a.st1.ntp.br", -3 * 3600, 60000);
 
 extern void ler_clima(), ler_chuva(), chuva_real(),
   at_hora(), banco_20();
-ESP8266WiFiMulti multiWiFi;
+
 
 #define USERNAME "wfasolo"
 #define DEVICE_ID "Estacao"
@@ -19,14 +23,14 @@ Adafruit_AHTX0 aht;
 Adafruit_BMP280 bmp;
 
 unsigned long cont = 0, cont1 = 0, cont_conec = 0,
-              c_con = 0, cont_BD = 0, cont_ler=0;
-bool forcereboot = false;
+              c_con = 0, cont_BD = 0, cont_ler = 0;
+bool forcereboot = false, iniciar = false;
 float pres0 = 0, temp0 = 0, umid0 = 0,
       pres1 = 0, temp1 = 0, umid1 = 0,
       pres2 = 0, temp2 = 0, umid2 = 0,
       presBD = 0, tempBD = 0, umidBD = 0;
 
-int chuv = 0, id = 1,
+int chuv = 0, id = 1, i_inic,
     hora = 61, minuto = 61, segundo = 61;
 
 const int pinoSensor = D5;
@@ -42,6 +46,9 @@ void setup() {
   multiWiFi.addAP("FASOLO", "@@lucas@@");
   multiWiFi.addAP("LAB", "@@lucas@@");
   multiWiFi.addAP("a1", "@1234567@");
+  WiFi.setAutoReconnect(true);
+  WiFi.persistent(true);
+  ntp.begin();
   pinMode(pinoSensor, INPUT);
   bmp.begin(0x77);
   aht.begin();
@@ -81,18 +88,22 @@ void setup() {
 void loop() {
 
   thing.handle();
+  conectar();
+  reb_esp();
+  at_hora();
+  banco_1h();
   digitalWrite(LED_BUILTIN, HIGH);
   c_con = 0;
 
-  if ((millis() / 1000) - cont >= 10) {
-    digitalWrite(LED_BUILTIN, LOW);
-    ler_clima();
-    ler_chuva();
-    chuva_real();
-    at_hora();
-    banco_20();
+  if (millis() - cont >= 29500) {
+    if (segundo == 0 || segundo == 30) {
+      digitalWrite(LED_BUILTIN, LOW);
+      inicio();
+      ler_clima();
+      ler_chuva();
+      chuva_real();
 
-    cont = (millis() / 1000);
+      cont = (millis());
+    }
   }
-
 }
