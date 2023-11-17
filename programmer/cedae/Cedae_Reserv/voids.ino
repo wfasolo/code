@@ -28,7 +28,7 @@ void at_hora() {
 //**** gravacao no banco de dados ****//
 void banco_1h() {
   if (minuto == 0) {
-    if (segundo < 10) {
+    if (segundo < 5) {
       pson data;
       data["altura"] = altura;
       data["volume"] = volume;
@@ -52,7 +52,7 @@ void inicio() {
       pulso = data["Pulso"];
       larg = data["Largura"];
       comp = data["Comprimento"];
-      if (i_inic > 2) {
+      if (i_inic >= 2) {
         iniciar = true;
         i_inic = 0;
       }
