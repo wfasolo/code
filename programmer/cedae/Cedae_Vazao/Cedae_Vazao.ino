@@ -14,11 +14,12 @@ ESP8266WiFiMulti multiWiFi;
 
 unsigned long cont = 0;
 bool forcereboot = false, iniciar = false;
-float altura = 0, pulso = 0, dist = 0;
 float md_ler[3] = { 25, 25, 25 };
+float altura = 100, altura2 = 100, pulso = 0, dist = 20;
 float vz_min = 100, vz_hor = 100, vz_dia = 100, vazao = 100, vz_min2 = 100;
 int dia = 0, hora = 0, minuto = 0, segundo = 30;
 int i_d = 0, i_h = 0, i_m = 0, i_inic = 0;
+int est2 = 0;
 int vol_trat;
 
 #define USERNAME "w_fasolo"
@@ -77,6 +78,7 @@ void loop() {
   thing.handle();
   conectar();
   at_hora();
+  media2();
   ler_vazao();
   reb_esp();
 }

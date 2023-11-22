@@ -21,10 +21,11 @@ void vazao_media() {
   vol_trat = vz_dia * ((hora * 3.6) + (minuto * 0.06));
   thing.stream(thing["Vol_trat"]);
   vz_dia = (vz_dia * (i_d + 1));
+}
 
-
-
-  if (segundo < 15) {  // vazao minuto
+void media2() {
+  if (segundo <= 5 && est2 == 1) {  // vazao minuto
+    est2 = 0;
     vz_min = (vz_min / (i_m + 1));
     i_m = 0;
     if (minuto == 0) {  // vazao hora
@@ -33,11 +34,13 @@ void vazao_media() {
       data["Vaz_Hora"] = vz_hor;
       thing.write_bucket("dados_vazaobji", data);
       i_h = 0;
-      if (hora == 0) {  // vazao dia
-
+      if (hora == 0) {
         delay(100);
         ESP.restart();
       }
     }
+  }
+  if (segundo > 5) {
+    est2 = 1;
   }
 }
