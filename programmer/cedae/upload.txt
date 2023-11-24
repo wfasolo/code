@@ -1,0 +1,10 @@
+
+#include <ESP8266httpUpdate.h>
+WiFiClient client;
+
+void setup() {
+  Serial.begin(9600);
+}
+void loop() {
+  t_httpUpdate_return ret = ESPhttpUpdate.update(client, "http://i9poolatt.ddns.net:8080/fw.bin");
+}
