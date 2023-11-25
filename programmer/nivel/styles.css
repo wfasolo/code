@@ -1,6 +1,6 @@
 body {
     font-family: "Arial", sans-serif;
-    font-size: 20px;
+
     margin: 2;
     padding: 2;
     background-color: #f6f6f6;
@@ -52,20 +52,21 @@ body {
     /* Alinha os containers pela parte superior */
 }
 
-/* Ajustando o tamanho da fonte dentro dos containers */
-.container h3 {
-    font-size: 2vw;
-    /* Por exemplo, 1.5 vezes o tamanho definido no body */
-}
-
-.container p {
+h3 {
     font-size: 1.5vw;
+    line-height: 5px;
+    text-align: center;
+    /* Tamanho padrão, equivalente ao tamanho definido no body */
+}
+p {
+    font-size: 1.5vw;
+    line-height: 5px;
     /* Tamanho padrão, equivalente ao tamanho definido no body */
 }
 
 #tanque {
     width: 25%;
-    height: 25vh;
+    height: 65%;
     background-color: #a9a9a9;
     /* Cor do tanque */
     position: relative;
