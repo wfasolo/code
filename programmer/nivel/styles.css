@@ -1,0 +1,89 @@
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    margin: 2;
+    padding: 2;
+    background-color: #f6f6f6;
+}
+#container-mae {
+  
+    height: 98vh;
+   
+    /* Faz com que o contêiner ocupe o restante da largura disponível */
+    
+    /* Usa um layout flexível dentro do contêiner */
+}
+#leftContainer {
+    width: 10%;
+    min-width: 100px;
+    height: 99.8%;
+    /* 100% da altura da tela */
+    float: left;
+    /* Define o contêiner 1 à esquerda */
+    background-color: #fff;
+ 
+    border: 1px solid #ccc;
+}
+
+#container-direita {
+    flex: 1;
+    height: 50.2%;
+    /* Faz com que o contêiner ocupe o restante da largura disponível */
+    display: flex;
+    /* Usa um layout flexível dentro do contêiner */
+}
+
+#container {
+    width: 100%;
+    
+    /* Define a largura de cada container */
+    background-color: #fff;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    /* Adiciona margem para espaçamento entre os containers */
+    padding: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    /* Permite que os containers fiquem lado a lado */
+    box-sizing: border-box;
+    /* Garante que o padding não aumente a largura do container */
+    vertical-align: top;
+    /* Alinha os containers pela parte superior */
+}
+
+/* Ajustando o tamanho da fonte dentro dos containers */
+.container h3 {
+    font-size: 2vw;
+    /* Por exemplo, 1.5 vezes o tamanho definido no body */
+}
+
+.container p {
+    font-size: 1.5vw;
+    /* Tamanho padrão, equivalente ao tamanho definido no body */
+}
+
+#tanque {
+    width: 25%;
+    height: 25vh;
+    background-color: #a9a9a9;
+    /* Cor do tanque */
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#agua {
+    width: 100%;
+    height: 0;
+    background-color: #00ced1;
+    /* Cor da água */
+    position: absolute;
+    bottom: 0;
+    transition: height 5s;
+    font-size: 1.5vw;
+    /* Tempo da animação de enchimento */
+}
