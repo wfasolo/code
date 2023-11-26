@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Últimos 10 Valores de Temperatura em um Gráfico</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        #chart {
+            max-width: 800px;
+            margin: 35px auto;
+        }
+    </style>
+</head>
+
+<body translate="no">
+    <div id="chart"></div>
+    <script src='https://cdn.jsdelivr.net/npm/apexcharts'></script>
+    <script>
+        var options = {
+            chart: {
+                type: 'line'
+            },
+            series: [{
+                name: 'Temperatura',
+                data: []
+            }],
+            xaxis: {
+                type: 'datetime'
+            }
+        };
+
+        // Função para buscar os dados JSON
+        fetch('https://api.thinger.io/v1/users/wfasolo/buckets/dados_estacao1/data?items=0&authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJidWNrZXQiLCJ1c3IiOiJ3ZmFzb2xvIn0.CrjRqDEFx4KDVCnkOTJtVjnZlkHehO0M_TGE3KEPZ10')
+            .then(response => response.json())
+            .then(data => {
+                // Obtém somente os últimos 10 elementos do array
+                var lastTenData = data.slice(0,5);
+
+                // Processa os últimos 10 dados JSON para criar o gráfico
+                lastTenData.forEach(item => {
+                    // Extrai o timestamp e a temperatura de cada item
+                    var timestamp = item.ts;
+                    var temperatura = item.val.Temp;
+
+                    // Adiciona os valores formatados ao gráfico
+                    options.series[0].data.push([timestamp, temperatura]);
+                });
+
+                // Cria e renderiza o gráfico com os últimos 10 dados obtidos
+                var chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            })
+            .catch(error => console.error('Erro ao buscar os dados:', error));
+    </script>
+</body>
+
+</html>
