@@ -34,8 +34,7 @@ void inicio() {
       thing.get_property("parametro", data);
       dist = data["Distancia"];
       pulso = data["Pulso"];
-      Serial.println(pulso);
-
+    
       if (i_inic > 2) {
         iniciar = true;
         i_inic = 0;

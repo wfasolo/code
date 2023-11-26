@@ -24,14 +24,14 @@ void vazao_media() {
 }
 
 void media2() {
-  if (segundo <= 5 && est2 == 1) {  // vazao minuto
+  if (segundo <10 && est2 == 1) {  // vazao minuto
     est2 = 0;
     vz_min = (vz_min / (i_m + 1));
     i_m = 0;
     if (minuto == 0) {  // vazao hora
       vz_hor = (vz_hor / (i_h + 1));
       pson data;
-      data["Vaz_Hora"] = vz_hor;
+      data["Vaz_Hora"] = int(vz_hor);
       thing.write_bucket("dados_vazaobji", data);
       i_h = 0;
       if (hora == 0) {
@@ -40,7 +40,7 @@ void media2() {
       }
     }
   }
-  if (segundo > 5) {
+  if (segundo >= 10) {
     est2 = 1;
   }
 }
