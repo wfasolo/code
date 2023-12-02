@@ -16,6 +16,7 @@ void reb_esp() {
   }
 }
 
+
 //**** Atualizacao da hora ****//
 void at_hora() {
   dia = ntp.getDay();
@@ -34,7 +35,7 @@ void inicio() {
       thing.get_property("parametro", data);
       dist = data["Distancia"];
       pulso = data["Pulso"];
-    
+
       if (i_inic > 2) {
         iniciar = true;
         i_inic = 0;

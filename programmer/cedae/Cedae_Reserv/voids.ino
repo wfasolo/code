@@ -17,6 +17,25 @@ void reb_esp() {
   }
 }
 
+//**** Upload Codigo ****//
+void upload() {
+  if (uploads == true) {
+    t_httpUpdate_return ret = ESPhttpUpdate.update(client, "http://estacao.wuaze.com/upload/reserv.bin");
+    switch (ret) {
+      case HTTP_UPDATE_FAILED:
+        atualiza = "UP FAILED";
+        break;
+      case HTTP_UPDATE_NO_UPDATES:
+        atualiza = "NO UPDATE";
+        break;
+      case HTTP_UPDATE_OK:
+        atualiza = "UPDATE OK";
+        break;
+    }
+     thing.stream(thing["Atualiza"]);
+  }
+}
+
 //**** Atualizacao da hora ****//
 void at_hora() {
   dia = ntp.getDay();

@@ -3,7 +3,9 @@
 #include <ThingerESP8266.h>
 #include <NTPClient.h>
 #include <WiFiUdp.h>
+#include <ESP8266httpUpdate.h>
 
+WiFiClient client;
 WiFiUDP udp;
 NTPClient ntp(udp, "a.st1.ntp.br", -3 * 3600, 60000);
 
@@ -13,11 +15,12 @@ ESP8266WiFiMulti multiWiFi;
 #define echoPin D6
 
 
-bool forcereboot = false, iniciar = false;
+bool forcereboot = false, iniciar = false, uploads = false;
 float altura = 0, pulso = 0, dist = 0, volume = 0, comp = 1, larg = 1;
 float md_ler[3] = { 1, 1, 1 };
 int dia = 0, hora = 0, minuto = 0, segundo = 30;
 int i_inic = 0, seg_ant = 0, cont = 0;
+String atualiza = "iniciado.";
 
 #define USERNAME "w_fasolo"
 #define DEVICE_ID "reserv_BJI"
@@ -25,7 +28,7 @@ int i_inic = 0, seg_ant = 0, cont = 0;
 ThingerESP8266 thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL);
 
 void setup() {
- // Serial.begin(115200);
+  // Serial.begin(115200);
   pinMode(LED_BUILTIN, OUTPUT);
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
@@ -61,6 +64,18 @@ void setup() {
       forcereboot = in ? true : false;
     }
   };
+
+  thing["Upload"] << [](pson& in) {
+    if (in.is_empty()) {
+      in = uploads;
+    } else {
+      uploads = in ? true : false;
+    }
+  };
+  
+  thing["Atualiza"] >> [](pson& out) {
+    out = atualiza;
+  };
   ntp.forceUpdate();
 }
 
@@ -70,6 +85,7 @@ void loop() {
   at_hora();
   banco_1h();
   reb_esp();
+  upload();
   ler_volume();
   digitalWrite(LED_BUILTIN, HIGH);
 }
