@@ -1,281 +1,2981 @@
 index,equipe,pos
-738,Botafogo,1
-739,Bragantino,2
-740,Grêmio,3
-741,Palmeiras,4
-742,Paranaense,5
-743,Fluminense,6
-744,Flamengo,7
-745,Fortaleza,8
-746,Cruzeiro,9
-747,Mineiro,10
-748,Internacional,11
-749,Cuiabá EC,12
-750,Corinthians,13
-751,São Paulo,14
-752,Vasco da Gama,15
-753,Goiás,16
-754,Bahia,17
-755,Santos,18
-756,América (MG),19
-757,Coritiba,20
-738,Botafogo,1
-739,Bragantino,2
-740,Palmeiras,3
-741,Flamengo,4
-742,Fortaleza,5
-743,Fluminense,6
-744,São Paulo,7
-745,Grêmio,8
-746,Mineiro,9
-747,Corinthians,10
-748,Paranaense,11
-749,Cruzeiro,12
-750,Internacional,13
-751,Cuiabá EC,14
-752,Goiás,15
-753,Vasco da Gama,16
-754,Santos,17
-755,Bahia,18
-756,Coritiba,19
-757,América (MG),20
-738,Botafogo,1
-739,Palmeiras,2
-740,Fortaleza,3
-741,Flamengo,4
-742,Bragantino,5
-743,Grêmio,6
-744,Mineiro,7
-745,Fluminense,8
-746,Paranaense,9
-747,São Paulo,10
-748,Corinthians,11
-749,Cruzeiro,12
-750,Santos,13
-751,Vasco da Gama,14
-752,Cuiabá EC,15
-753,Bahia,16
-754,América (MG),17
-755,Goiás,18
-756,Internacional,19
-757,Coritiba,20
-738,Botafogo,1
-739,Grêmio,2
-740,Paranaense,3
-741,Bragantino,4
-742,Palmeiras,5
-743,Flamengo,6
-744,Fluminense,7
-745,Fortaleza,8
-746,Mineiro,9
-747,Cuiabá EC,10
-748,Internacional,11
-749,São Paulo,12
-750,Goiás,13
-751,Corinthians,14
-752,Santos,15
-753,Cruzeiro,16
-754,Bahia,17
-755,Vasco da Gama,18
-756,Coritiba,19
-757,América (MG),20
-738,Botafogo,1
-739,Bragantino,2
-740,Palmeiras,3
-741,Grêmio,4
-742,Flamengo,5
-743,São Paulo,6
-744,Fluminense,7
-745,Mineiro,8
-746,Fortaleza,9
-747,Paranaense,10
-748,Cuiabá EC,11
-749,Cruzeiro,12
-750,Corinthians,13
-751,Santos,14
-752,Internacional,15
-753,Bahia,16
-754,Goiás,17
-755,Vasco da Gama,18
-756,América (MG),19
-757,Coritiba,20
-738,Botafogo,1
-739,Bragantino,2
-740,Fortaleza,3
-741,Flamengo,4
-742,Grêmio,5
-743,Fluminense,6
-744,Mineiro,7
-745,Palmeiras,8
-746,Internacional,9
-747,Paranaense,10
-748,São Paulo,11
-749,Santos,12
-750,Goiás,13
-751,Cuiabá EC,14
-752,Vasco da Gama,15
-753,Corinthians,16
-754,Cruzeiro,17
-755,Bahia,18
-756,Coritiba,19
-757,América (MG),20
-738,Botafogo,1
-739,Palmeiras,2
-740,Fluminense,3
-741,Bragantino,4
-742,Grêmio,5
-743,Paranaense,6
-744,Fortaleza,7
-745,São Paulo,8
-746,Mineiro,9
-747,Flamengo,10
-748,Cruzeiro,11
-749,Internacional,12
-750,Corinthians,13
-751,Goiás,14
-752,Cuiabá EC,15
-753,Santos,16
-754,Vasco da Gama,17
-755,Bahia,18
-756,América (MG),19
-757,Coritiba,20
-738,Botafogo,1
-739,Fluminense,2
-740,Bragantino,3
-741,Flamengo,4
-742,Grêmio,5
-743,Fortaleza,6
-744,Paranaense,7
-745,Cuiabá EC,8
-746,Palmeiras,9
-747,Mineiro,10
-748,Bahia,11
-749,São Paulo,12
-750,Santos,13
-751,Cruzeiro,14
-752,Corinthians,15
-753,Internacional,16
-754,Vasco da Gama,17
-755,Goiás,18
-756,Coritiba,19
-757,América (MG),20
-738,Bragantino,1
-739,Botafogo,2
-740,Mineiro,3
-741,Palmeiras,4
-742,Fortaleza,5
-743,Paranaense,6
-744,Grêmio,7
-745,Flamengo,8
-746,São Paulo,9
-747,Santos,10
-748,Fluminense,11
-749,Bahia,12
-750,Goiás,13
-751,Corinthians,14
-752,Vasco da Gama,15
-753,Cruzeiro,16
-754,Cuiabá EC,17
-755,Internacional,18
-756,América (MG),19
-757,Coritiba,20
-738,Botafogo,1
-739,Fortaleza,2
-740,Flamengo,3
-741,Palmeiras,4
-742,Grêmio,5
-743,Fluminense,6
-744,Bragantino,7
-745,Mineiro,8
-746,Paranaense,9
-747,São Paulo,10
-748,Santos,11
-749,Cruzeiro,12
-750,Bahia,13
-751,Cuiabá EC,14
-752,Internacional,15
-753,Vasco da Gama,16
-754,Goiás,17
-755,Corinthians,18
-756,América (MG),19
-757,Coritiba,20
-738,Botafogo,1
-739,Bragantino,2
-740,Palmeiras,3
-741,Paranaense,4
-742,Mineiro,5
-743,Flamengo,6
-744,Fluminense,7
-745,Grêmio,8
-746,São Paulo,9
-747,Cruzeiro,10
-748,Fortaleza,11
-749,Goiás,12
-750,Bahia,13
-751,Cuiabá EC,14
-752,Santos,15
-753,Internacional,16
-754,Corinthians,17
-755,Vasco da Gama,18
-756,América (MG),19
-757,Coritiba,20
-738,Botafogo,1
-739,Palmeiras,2
-740,Fluminense,3
-741,Flamengo,4
-742,Bragantino,5
-743,Grêmio,6
-744,Fortaleza,7
-745,Mineiro,8
-746,Paranaense,9
-747,São Paulo,10
-748,Corinthians,11
-749,Vasco da Gama,12
-750,Santos,13
-751,Cruzeiro,14
-752,Internacional,15
-753,Cuiabá EC,16
-754,Bahia,17
-755,Goiás,18
-756,Coritiba,19
-757,América (MG),20
-738,Botafogo,1
-739,Bragantino,2
-740,Fluminense,3
-741,Grêmio,4
-742,Palmeiras,5
-743,Fortaleza,6
-744,Flamengo,7
-745,Cuiabá EC,8
-746,Paranaense,9
-747,Mineiro,10
-748,Bahia,11
-749,Corinthians,12
-750,São Paulo,13
-751,Cruzeiro,14
-752,Vasco da Gama,15
-753,Santos,16
-754,Internacional,17
-755,Goiás,18
-756,América (MG),19
-757,Coritiba,20
-738,Botafogo,1
-739,Mineiro,2
-740,Grêmio,3
-741,Flamengo,4
-742,São Paulo,5
-743,Fortaleza,6
-744,Paranaense,7
-745,Bragantino,8
-746,Fluminense,9
-747,Palmeiras,10
-748,Cruzeiro,11
-749,Cuiabá EC,12
-750,Internacional,13
-751,Corinthians,14
-752,Bahia,15
-753,Goiás,16
-754,Coritiba,17
-755,Santos,18
-756,Vasco da Gama,19
-757,América (MG),20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Internacional,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Bragantino,11
+681,Criciúma,12
+682,Grêmio,13
+683,Corinthians,14
+684,Paranaense,15
+685,Juventude,16
+686,Fluminense,17
+687,Vitória,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Bahia,5
+675,Internacional,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Grêmio,11
+681,Criciúma,12
+682,Bragantino,13
+683,Corinthians,14
+684,Vitória,15
+685,Paranaense,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Flamengo,5
+675,Cruzeiro,6
+676,Bahia,7
+677,Internacional,8
+678,Mineiro,9
+679,Bragantino,10
+680,Vasco da Gama,11
+681,Criciúma,12
+682,Grêmio,13
+683,Paranaense,14
+684,Juventude,15
+685,Fluminense,16
+686,Corinthians,17
+687,Vitória,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Flamengo,7
+677,Bahia,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Corinthians,11
+681,Bragantino,12
+682,Criciúma,13
+683,Paranaense,14
+684,Juventude,15
+685,Grêmio,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Grêmio,11
+681,Criciúma,12
+682,Bragantino,13
+683,Corinthians,14
+684,Paranaense,15
+685,Vitória,16
+686,Fluminense,17
+687,Juventude,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Fortaleza,2
+672,Botafogo,3
+673,São Paulo,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Corinthians,11
+681,Bragantino,12
+682,Vitória,13
+683,Criciúma,14
+684,Juventude,15
+685,Grêmio,16
+686,Paranaense,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Cruzeiro,5
+675,Internacional,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Grêmio,11
+681,Bragantino,12
+682,Corinthians,13
+683,Criciúma,14
+684,Paranaense,15
+685,Juventude,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Flamengo,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Internacional,8
+678,Mineiro,9
+679,Criciúma,10
+680,Vasco da Gama,11
+681,Corinthians,12
+682,Juventude,13
+683,Paranaense,14
+684,Bragantino,15
+685,Grêmio,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Flamengo,5
+675,Cruzeiro,6
+676,Bahia,7
+677,Internacional,8
+678,Mineiro,9
+679,Bragantino,10
+680,Vasco da Gama,11
+681,Paranaense,12
+682,Corinthians,13
+683,Criciúma,14
+684,Grêmio,15
+685,Juventude,16
+686,Fluminense,17
+687,Vitória,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Bahia,7
+677,Flamengo,8
+678,Vasco da Gama,9
+679,Mineiro,10
+680,Bragantino,11
+681,Criciúma,12
+682,Paranaense,13
+683,Grêmio,14
+684,Juventude,15
+685,Fluminense,16
+686,Vitória,17
+687,Corinthians,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Internacional,5
+675,Flamengo,6
+676,Bahia,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Bragantino,10
+680,Vasco da Gama,11
+681,Juventude,12
+682,Grêmio,13
+683,Criciúma,14
+684,Corinthians,15
+685,Paranaense,16
+686,Fluminense,17
+687,Vitória,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Cruzeiro,5
+675,Internacional,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Grêmio,11
+681,Paranaense,12
+682,Corinthians,13
+683,Criciúma,14
+684,Bragantino,15
+685,Juventude,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Cruzeiro,6
+676,Internacional,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Criciúma,11
+681,Corinthians,12
+682,Paranaense,13
+683,Bragantino,14
+684,Vitória,15
+685,Juventude,16
+686,Grêmio,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Bahia,5
+675,Cruzeiro,6
+676,Internacional,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Bragantino,11
+681,Grêmio,12
+682,Corinthians,13
+683,Criciúma,14
+684,Paranaense,15
+685,Juventude,16
+686,Fluminense,17
+687,Vitória,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Fortaleza,2
+672,Botafogo,3
+673,São Paulo,4
+674,Bahia,5
+675,Internacional,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Criciúma,10
+680,Bragantino,11
+681,Vasco da Gama,12
+682,Corinthians,13
+683,Juventude,14
+684,Grêmio,15
+685,Vitória,16
+686,Paranaense,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Bahia,5
+675,Internacional,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Paranaense,10
+680,Criciúma,11
+681,Vasco da Gama,12
+682,Grêmio,13
+683,Bragantino,14
+684,Juventude,15
+685,Vitória,16
+686,Corinthians,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Criciúma,11
+681,Paranaense,12
+682,Grêmio,13
+683,Corinthians,14
+684,Juventude,15
+685,Bragantino,16
+686,Fluminense,17
+687,Vitória,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Internacional,5
+675,Flamengo,6
+676,Bahia,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Criciúma,10
+680,Corinthians,11
+681,Vasco da Gama,12
+682,Grêmio,13
+683,Bragantino,14
+684,Juventude,15
+685,Vitória,16
+686,Paranaense,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Cruzeiro,6
+676,Internacional,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Corinthians,11
+681,Criciúma,12
+682,Grêmio,13
+683,Bragantino,14
+684,Vitória,15
+685,Juventude,16
+686,Fluminense,17
+687,Paranaense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Grêmio,11
+681,Paranaense,12
+682,Bragantino,13
+683,Corinthians,14
+684,Criciúma,15
+685,Vitória,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Cruzeiro,5
+675,Internacional,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Bragantino,11
+681,Corinthians,12
+682,Criciúma,13
+683,Vitória,14
+684,Juventude,15
+685,Grêmio,16
+686,Paranaense,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Internacional,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Corinthians,10
+680,Vasco da Gama,11
+681,Grêmio,12
+682,Bragantino,13
+683,Criciúma,14
+684,Vitória,15
+685,Juventude,16
+686,Paranaense,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Cruzeiro,6
+676,Internacional,7
+677,Flamengo,8
+678,Mineiro,9
+679,Corinthians,10
+680,Bragantino,11
+681,Criciúma,12
+682,Vasco da Gama,13
+683,Grêmio,14
+684,Vitória,15
+685,Juventude,16
+686,Paranaense,17
+687,Fluminense,18
+688,AC Goianiense,19
+689,Cuiabá EC,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Flamengo,5
+675,Cruzeiro,6
+676,Internacional,7
+677,Bahia,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Bragantino,11
+681,Paranaense,12
+682,Grêmio,13
+683,Corinthians,14
+684,Vitória,15
+685,Criciúma,16
+686,Juventude,17
+687,Cuiabá EC,18
+688,Fluminense,19
+689,AC Goianiense,20
+670,Fortaleza,1
+671,Botafogo,2
+672,Palmeiras,3
+673,São Paulo,4
+674,Bahia,5
+675,Cruzeiro,6
+676,Internacional,7
+677,Flamengo,8
+678,Mineiro,9
+679,Juventude,10
+680,Bragantino,11
+681,Vitória,12
+682,Vasco da Gama,13
+683,Corinthians,14
+684,Criciúma,15
+685,Paranaense,16
+686,Grêmio,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Paranaense,11
+681,Bragantino,12
+682,Corinthians,13
+683,Criciúma,14
+684,Juventude,15
+685,Vitória,16
+686,Grêmio,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Flamengo,5
+675,Bahia,6
+676,Internacional,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Criciúma,11
+681,Corinthians,12
+682,Grêmio,13
+683,Bragantino,14
+684,Juventude,15
+685,Paranaense,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Flamengo,5
+675,Internacional,6
+676,Bahia,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Paranaense,10
+680,Vasco da Gama,11
+681,Juventude,12
+682,Corinthians,13
+683,Criciúma,14
+684,Grêmio,15
+685,Bragantino,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Bragantino,11
+681,Juventude,12
+682,Corinthians,13
+683,Grêmio,14
+684,Vitória,15
+685,Paranaense,16
+686,Criciúma,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Bragantino,10
+680,Criciúma,11
+681,Vasco da Gama,12
+682,Juventude,13
+683,Grêmio,14
+684,Corinthians,15
+685,Paranaense,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Grêmio,11
+681,Bragantino,12
+682,Corinthians,13
+683,Criciúma,14
+684,Paranaense,15
+685,Fluminense,16
+686,Vitória,17
+687,Juventude,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Cruzeiro,5
+675,Bahia,6
+676,Flamengo,7
+677,Internacional,8
+678,Mineiro,9
+679,Grêmio,10
+680,Vasco da Gama,11
+681,Corinthians,12
+682,Criciúma,13
+683,Juventude,14
+684,Bragantino,15
+685,Paranaense,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Internacional,5
+675,Bahia,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Grêmio,11
+681,Bragantino,12
+682,Corinthians,13
+683,Paranaense,14
+684,Criciúma,15
+685,Juventude,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Flamengo,6
+676,Internacional,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Criciúma,10
+680,Vasco da Gama,11
+681,Grêmio,12
+682,Bragantino,13
+683,Paranaense,14
+684,Juventude,15
+685,Vitória,16
+686,Corinthians,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Internacional,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Bragantino,10
+680,Vasco da Gama,11
+681,Grêmio,12
+682,Corinthians,13
+683,Paranaense,14
+684,Criciúma,15
+685,Juventude,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,Bahia,4
+674,São Paulo,5
+675,Flamengo,6
+676,Cruzeiro,7
+677,Internacional,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Corinthians,11
+681,Grêmio,12
+682,Bragantino,13
+683,Juventude,14
+684,Paranaense,15
+685,Criciúma,16
+686,Fluminense,17
+687,Vitória,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,Internacional,4
+674,São Paulo,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Criciúma,11
+681,Grêmio,12
+682,Paranaense,13
+683,Bragantino,14
+684,Vitória,15
+685,Juventude,16
+686,Corinthians,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Flamengo,7
+677,Bahia,8
+678,Vasco da Gama,9
+679,Mineiro,10
+680,Criciúma,11
+681,Vitória,12
+682,Bragantino,13
+683,Paranaense,14
+684,Grêmio,15
+685,Corinthians,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Flamengo,5
+675,Cruzeiro,6
+676,Internacional,7
+677,Bahia,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Grêmio,11
+681,Criciúma,12
+682,Paranaense,13
+683,Corinthians,14
+684,Bragantino,15
+685,Juventude,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Vasco da Gama,9
+679,Mineiro,10
+680,Corinthians,11
+681,Vitória,12
+682,Criciúma,13
+683,Juventude,14
+684,Bragantino,15
+685,Paranaense,16
+686,Grêmio,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Flamengo,5
+675,Bahia,6
+676,Internacional,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Corinthians,11
+681,Bragantino,12
+682,Vitória,13
+683,Grêmio,14
+684,Criciúma,15
+685,Juventude,16
+686,Paranaense,17
+687,Fluminense,18
+688,AC Goianiense,19
+689,Cuiabá EC,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Cruzeiro,5
+675,Internacional,6
+676,Flamengo,7
+677,Bahia,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Paranaense,11
+681,Bragantino,12
+682,Grêmio,13
+683,Vitória,14
+684,Criciúma,15
+685,Juventude,16
+686,Corinthians,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Corinthians,10
+680,Vasco da Gama,11
+681,Bragantino,12
+682,Criciúma,13
+683,Grêmio,14
+684,Vitória,15
+685,Paranaense,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Bragantino,10
+680,Criciúma,11
+681,Vasco da Gama,12
+682,Corinthians,13
+683,Paranaense,14
+684,Grêmio,15
+685,Vitória,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Cruzeiro,5
+675,Internacional,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Corinthians,10
+680,Vasco da Gama,11
+681,Bragantino,12
+682,Criciúma,13
+683,Paranaense,14
+684,Juventude,15
+685,Vitória,16
+686,Grêmio,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Cruzeiro,5
+675,Internacional,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Corinthians,10
+680,Vitória,11
+681,Vasco da Gama,12
+682,Bragantino,13
+683,Paranaense,14
+684,Juventude,15
+685,Criciúma,16
+686,Grêmio,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Juventude,10
+680,Bragantino,11
+681,Corinthians,12
+682,Vitória,13
+683,Criciúma,14
+684,Paranaense,15
+685,Vasco da Gama,16
+686,Grêmio,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Cruzeiro,6
+676,Flamengo,7
+677,Internacional,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Grêmio,11
+681,Corinthians,12
+682,Criciúma,13
+683,Bragantino,14
+684,Paranaense,15
+685,Juventude,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Vasco da Gama,9
+679,Mineiro,10
+680,Grêmio,11
+681,Bragantino,12
+682,Corinthians,13
+683,Paranaense,14
+684,Criciúma,15
+685,Juventude,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Flamengo,5
+675,Cruzeiro,6
+676,Internacional,7
+677,Bahia,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Bragantino,11
+681,Corinthians,12
+682,Vitória,13
+683,Criciúma,14
+684,Paranaense,15
+685,Juventude,16
+686,Grêmio,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Juventude,11
+681,Criciúma,12
+682,Paranaense,13
+683,Bragantino,14
+684,Grêmio,15
+685,Corinthians,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Grêmio,10
+680,Bragantino,11
+681,Vasco da Gama,12
+682,Corinthians,13
+683,Vitória,14
+684,Criciúma,15
+685,Paranaense,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Vasco da Gama,9
+679,Mineiro,10
+680,Vitória,11
+681,Paranaense,12
+682,Juventude,13
+683,Criciúma,14
+684,Bragantino,15
+685,Corinthians,16
+686,Grêmio,17
+687,Fluminense,18
+688,AC Goianiense,19
+689,Cuiabá EC,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Criciúma,10
+680,Vasco da Gama,11
+681,Juventude,12
+682,Bragantino,13
+683,Corinthians,14
+684,Vitória,15
+685,Paranaense,16
+686,Grêmio,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Internacional,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Bragantino,11
+681,Grêmio,12
+682,Criciúma,13
+683,Paranaense,14
+684,Vitória,15
+685,Juventude,16
+686,Corinthians,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Vitória,11
+681,Grêmio,12
+682,Bragantino,13
+683,Corinthians,14
+684,Criciúma,15
+685,Paranaense,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Flamengo,5
+675,Bahia,6
+676,Internacional,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Corinthians,10
+680,Vasco da Gama,11
+681,Vitória,12
+682,Grêmio,13
+683,Criciúma,14
+684,Bragantino,15
+685,Juventude,16
+686,Paranaense,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Flamengo,7
+677,Bahia,8
+678,Vasco da Gama,9
+679,Bragantino,10
+680,Mineiro,11
+681,Corinthians,12
+682,Grêmio,13
+683,Paranaense,14
+684,Criciúma,15
+685,Juventude,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Cruzeiro,5
+675,Bahia,6
+676,Internacional,7
+677,Flamengo,8
+678,Mineiro,9
+679,Criciúma,10
+680,Vasco da Gama,11
+681,Bragantino,12
+682,Corinthians,13
+683,Juventude,14
+684,Grêmio,15
+685,Paranaense,16
+686,Fluminense,17
+687,Vitória,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Flamengo,6
+676,Cruzeiro,7
+677,Bahia,8
+678,Corinthians,9
+679,Mineiro,10
+680,Vasco da Gama,11
+681,Bragantino,12
+682,Paranaense,13
+683,Juventude,14
+684,Grêmio,15
+685,Vitória,16
+686,Criciúma,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Flamengo,6
+676,Bahia,7
+677,Cruzeiro,8
+678,Paranaense,9
+679,Mineiro,10
+680,Vasco da Gama,11
+681,Criciúma,12
+682,Bragantino,13
+683,Grêmio,14
+684,Corinthians,15
+685,Juventude,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Cruzeiro,5
+675,Internacional,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Criciúma,10
+680,Corinthians,11
+681,Vasco da Gama,12
+682,Juventude,13
+683,Grêmio,14
+684,Paranaense,15
+685,Bragantino,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Cruzeiro,5
+675,Flamengo,6
+676,Bahia,7
+677,Internacional,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Corinthians,11
+681,Criciúma,12
+682,Grêmio,13
+683,Bragantino,14
+684,Fluminense,15
+685,Vitória,16
+686,Paranaense,17
+687,Juventude,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Flamengo,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Internacional,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Paranaense,11
+681,Bragantino,12
+682,Vitória,13
+683,Criciúma,14
+684,Juventude,15
+685,Grêmio,16
+686,Fluminense,17
+687,Corinthians,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Flamengo,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Internacional,8
+678,Mineiro,9
+679,Grêmio,10
+680,Bragantino,11
+681,Corinthians,12
+682,Criciúma,13
+683,Vasco da Gama,14
+684,Juventude,15
+685,Paranaense,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Internacional,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Bragantino,11
+681,Vitória,12
+682,Grêmio,13
+683,Criciúma,14
+684,Paranaense,15
+685,Corinthians,16
+686,Fluminense,17
+687,Juventude,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Flamengo,6
+676,Cruzeiro,7
+677,Internacional,8
+678,Mineiro,9
+679,Vitória,10
+680,Criciúma,11
+681,Vasco da Gama,12
+682,Juventude,13
+683,Bragantino,14
+684,Corinthians,15
+685,Grêmio,16
+686,Paranaense,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Internacional,5
+675,Bahia,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Grêmio,10
+680,Bragantino,11
+681,Corinthians,12
+682,Criciúma,13
+683,Vasco da Gama,14
+684,Paranaense,15
+685,Juventude,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Grêmio,10
+680,Criciúma,11
+681,Juventude,12
+682,Vasco da Gama,13
+683,Bragantino,14
+684,Corinthians,15
+685,Vitória,16
+686,Paranaense,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Criciúma,11
+681,Bragantino,12
+682,Grêmio,13
+683,Paranaense,14
+684,Corinthians,15
+685,Juventude,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Cruzeiro,6
+676,Flamengo,7
+677,Internacional,8
+678,Mineiro,9
+679,Corinthians,10
+680,Grêmio,11
+681,Vasco da Gama,12
+682,Bragantino,13
+683,Paranaense,14
+684,Criciúma,15
+685,Juventude,16
+686,Vitória,17
+687,Cuiabá EC,18
+688,Fluminense,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Internacional,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Corinthians,10
+680,Vasco da Gama,11
+681,Paranaense,12
+682,Bragantino,13
+683,Juventude,14
+684,Grêmio,15
+685,Criciúma,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Internacional,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Criciúma,10
+680,Grêmio,11
+681,Bragantino,12
+682,Vasco da Gama,13
+683,Juventude,14
+684,Corinthians,15
+685,Paranaense,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Corinthians,11
+681,Bragantino,12
+682,Vitória,13
+683,Criciúma,14
+684,Grêmio,15
+685,Paranaense,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Fortaleza,2
+672,Botafogo,3
+673,São Paulo,4
+674,Cruzeiro,5
+675,Flamengo,6
+676,Internacional,7
+677,Bahia,8
+678,Mineiro,9
+679,Grêmio,10
+680,Bragantino,11
+681,Vasco da Gama,12
+682,Criciúma,13
+683,Corinthians,14
+684,Vitória,15
+685,Paranaense,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Cruzeiro,6
+676,Internacional,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Corinthians,11
+681,Criciúma,12
+682,Bragantino,13
+683,Grêmio,14
+684,Paranaense,15
+685,Juventude,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Internacional,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Criciúma,10
+680,Bragantino,11
+681,Juventude,12
+682,Vasco da Gama,13
+683,Grêmio,14
+684,Vitória,15
+685,Paranaense,16
+686,Corinthians,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Corinthians,11
+681,Paranaense,12
+682,Juventude,13
+683,Bragantino,14
+684,Grêmio,15
+685,Criciúma,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Cruzeiro,5
+675,Bahia,6
+676,Flamengo,7
+677,Internacional,8
+678,Mineiro,9
+679,Corinthians,10
+680,Vasco da Gama,11
+681,Bragantino,12
+682,Juventude,13
+683,Grêmio,14
+684,Criciúma,15
+685,Vitória,16
+686,Paranaense,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Corinthians,11
+681,Paranaense,12
+682,Criciúma,13
+683,Juventude,14
+684,Bragantino,15
+685,Vitória,16
+686,Grêmio,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Bahia,5
+675,Internacional,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Criciúma,10
+680,Paranaense,11
+681,Vasco da Gama,12
+682,Corinthians,13
+683,Juventude,14
+684,Grêmio,15
+685,Bragantino,16
+686,Vitória,17
+687,Fluminense,18
+688,AC Goianiense,19
+689,Cuiabá EC,20
+670,Botafogo,1
+671,Palmeiras,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Cruzeiro,5
+675,Bahia,6
+676,Internacional,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Grêmio,11
+681,Bragantino,12
+682,Corinthians,13
+683,Criciúma,14
+684,Vitória,15
+685,Juventude,16
+686,Paranaense,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Cruzeiro,5
+675,Bahia,6
+676,Internacional,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Criciúma,11
+681,Paranaense,12
+682,Grêmio,13
+683,Vitória,14
+684,Bragantino,15
+685,Corinthians,16
+686,Juventude,17
+687,Fluminense,18
+688,AC Goianiense,19
+689,Cuiabá EC,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Paranaense,10
+680,Vasco da Gama,11
+681,Grêmio,12
+682,Criciúma,13
+683,Corinthians,14
+684,Vitória,15
+685,Juventude,16
+686,Bragantino,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Bahia,5
+675,Flamengo,6
+676,Cruzeiro,7
+677,Internacional,8
+678,Mineiro,9
+679,Grêmio,10
+680,Criciúma,11
+681,Vasco da Gama,12
+682,Vitória,13
+683,Bragantino,14
+684,Paranaense,15
+685,Corinthians,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Flamengo,6
+676,Cruzeiro,7
+677,Internacional,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Bragantino,11
+681,Corinthians,12
+682,Grêmio,13
+683,Vitória,14
+684,Criciúma,15
+685,Paranaense,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Flamengo,6
+676,Cruzeiro,7
+677,Internacional,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Corinthians,11
+681,Juventude,12
+682,Bragantino,13
+683,Criciúma,14
+684,Vitória,15
+685,Grêmio,16
+686,Paranaense,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Flamengo,5
+675,Internacional,6
+676,Bahia,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Grêmio,11
+681,Bragantino,12
+682,Corinthians,13
+683,Criciúma,14
+684,Paranaense,15
+685,Juventude,16
+686,Vitória,17
+687,Fluminense,18
+688,AC Goianiense,19
+689,Cuiabá EC,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Flamengo,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Internacional,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Bragantino,11
+681,Grêmio,12
+682,Vitória,13
+683,Criciúma,14
+684,Corinthians,15
+685,Paranaense,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Criciúma,10
+680,Vasco da Gama,11
+681,Grêmio,12
+682,Vitória,13
+683,Paranaense,14
+684,Bragantino,15
+685,Corinthians,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Grêmio,10
+680,Vasco da Gama,11
+681,Criciúma,12
+682,Bragantino,13
+683,Paranaense,14
+684,Corinthians,15
+685,Juventude,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Grêmio,11
+681,Bragantino,12
+682,Corinthians,13
+683,Juventude,14
+684,Vitória,15
+685,Criciúma,16
+686,Fluminense,17
+687,Paranaense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Bragantino,11
+681,Corinthians,12
+682,Vitória,13
+683,Criciúma,14
+684,Grêmio,15
+685,Juventude,16
+686,Paranaense,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Corinthians,10
+680,Vasco da Gama,11
+681,Grêmio,12
+682,Criciúma,13
+683,Vitória,14
+684,Juventude,15
+685,Bragantino,16
+686,Paranaense,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Internacional,5
+675,Bahia,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Bragantino,11
+681,Criciúma,12
+682,Grêmio,13
+683,Paranaense,14
+684,Fluminense,15
+685,Corinthians,16
+686,Vitória,17
+687,Juventude,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Flamengo,7
+677,Bahia,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Grêmio,11
+681,Bragantino,12
+682,Criciúma,13
+683,Paranaense,14
+684,Corinthians,15
+685,Vitória,16
+686,Juventude,17
+687,Cuiabá EC,18
+688,Fluminense,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Internacional,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Criciúma,10
+680,Vasco da Gama,11
+681,Grêmio,12
+682,Bragantino,13
+683,Juventude,14
+684,Corinthians,15
+685,Paranaense,16
+686,Vitória,17
+687,Cuiabá EC,18
+688,Fluminense,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Internacional,5
+675,Flamengo,6
+676,Bahia,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Bragantino,11
+681,Corinthians,12
+682,Vitória,13
+683,Paranaense,14
+684,Criciúma,15
+685,Juventude,16
+686,Grêmio,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Cruzeiro,5
+675,Bahia,6
+676,Internacional,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Bragantino,11
+681,Criciúma,12
+682,Corinthians,13
+683,Vitória,14
+684,Juventude,15
+685,Grêmio,16
+686,Paranaense,17
+687,Fluminense,18
+688,AC Goianiense,19
+689,Cuiabá EC,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Internacional,5
+675,Flamengo,6
+676,Bahia,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Corinthians,10
+680,Juventude,11
+681,Criciúma,12
+682,Paranaense,13
+683,Vasco da Gama,14
+684,Bragantino,15
+685,Vitória,16
+686,Grêmio,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Flamengo,6
+676,Bahia,7
+677,Cruzeiro,8
+678,Bragantino,9
+679,Vasco da Gama,10
+680,Mineiro,11
+681,Criciúma,12
+682,Juventude,13
+683,Grêmio,14
+684,Corinthians,15
+685,Vitória,16
+686,Paranaense,17
+687,Fluminense,18
+688,AC Goianiense,19
+689,Cuiabá EC,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Cruzeiro,5
+675,Flamengo,6
+676,Internacional,7
+677,Bahia,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Bragantino,11
+681,Paranaense,12
+682,Grêmio,13
+683,Vitória,14
+684,Criciúma,15
+685,Juventude,16
+686,Corinthians,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Internacional,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Criciúma,10
+680,Vasco da Gama,11
+681,Grêmio,12
+682,Bragantino,13
+683,Paranaense,14
+684,Corinthians,15
+685,Vitória,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Cruzeiro,6
+676,Internacional,7
+677,Flamengo,8
+678,Mineiro,9
+679,Bragantino,10
+680,Vasco da Gama,11
+681,Grêmio,12
+682,Corinthians,13
+683,Criciúma,14
+684,Juventude,15
+685,Paranaense,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Flamengo,5
+675,Bahia,6
+676,Internacional,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Corinthians,10
+680,Paranaense,11
+681,Vasco da Gama,12
+682,Bragantino,13
+683,Vitória,14
+684,Criciúma,15
+685,Juventude,16
+686,Grêmio,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Bragantino,11
+681,Corinthians,12
+682,Criciúma,13
+683,Grêmio,14
+684,Paranaense,15
+685,Juventude,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Cruzeiro,5
+675,Bahia,6
+676,Internacional,7
+677,Flamengo,8
+678,Mineiro,9
+679,Bragantino,10
+680,Vasco da Gama,11
+681,Paranaense,12
+682,Juventude,13
+683,Corinthians,14
+684,Criciúma,15
+685,Grêmio,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Bahia,5
+675,Internacional,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Juventude,10
+680,Paranaense,11
+681,Vasco da Gama,12
+682,Grêmio,13
+683,Bragantino,14
+684,Criciúma,15
+685,Corinthians,16
+686,Fluminense,17
+687,Vitória,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Flamengo,7
+677,Bahia,8
+678,Vasco da Gama,9
+679,Mineiro,10
+680,Paranaense,11
+681,Bragantino,12
+682,Grêmio,13
+683,Corinthians,14
+684,Criciúma,15
+685,Vitória,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Criciúma,10
+680,Paranaense,11
+681,Vasco da Gama,12
+682,Bragantino,13
+683,Grêmio,14
+684,Corinthians,15
+685,Juventude,16
+686,Fluminense,17
+687,Vitória,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Grêmio,11
+681,Corinthians,12
+682,Bragantino,13
+683,Criciúma,14
+684,Paranaense,15
+685,Juventude,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Fortaleza,2
+672,Botafogo,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Criciúma,11
+681,Juventude,12
+682,Bragantino,13
+683,Grêmio,14
+684,Paranaense,15
+685,Vitória,16
+686,Corinthians,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Criciúma,11
+681,Corinthians,12
+682,Paranaense,13
+683,Grêmio,14
+684,Vitória,15
+685,Juventude,16
+686,Bragantino,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vitória,10
+680,Vasco da Gama,11
+681,Grêmio,12
+682,Corinthians,13
+683,Criciúma,14
+684,Bragantino,15
+685,Juventude,16
+686,Fluminense,17
+687,Paranaense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Cruzeiro,6
+676,Internacional,7
+677,Flamengo,8
+678,Mineiro,9
+679,Bragantino,10
+680,Vasco da Gama,11
+681,Paranaense,12
+682,Juventude,13
+683,Corinthians,14
+684,Vitória,15
+685,Criciúma,16
+686,Grêmio,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Criciúma,11
+681,Bragantino,12
+682,Paranaense,13
+683,Grêmio,14
+684,Juventude,15
+685,Vitória,16
+686,Corinthians,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Cruzeiro,5
+675,Internacional,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Criciúma,10
+680,Grêmio,11
+681,Corinthians,12
+682,Vasco da Gama,13
+683,Paranaense,14
+684,Bragantino,15
+685,Juventude,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Flamengo,7
+677,Bahia,8
+678,Mineiro,9
+679,Criciúma,10
+680,Vasco da Gama,11
+681,Bragantino,12
+682,Corinthians,13
+683,Paranaense,14
+684,Juventude,15
+685,Grêmio,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Flamengo,7
+677,Bahia,8
+678,Vasco da Gama,9
+679,Mineiro,10
+680,Bragantino,11
+681,Corinthians,12
+682,Paranaense,13
+683,Criciúma,14
+684,Grêmio,15
+685,Fluminense,16
+686,Juventude,17
+687,Vitória,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Internacional,5
+675,Flamengo,6
+676,Bahia,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Grêmio,11
+681,Paranaense,12
+682,Corinthians,13
+683,Vitória,14
+684,Criciúma,15
+685,Juventude,16
+686,Bragantino,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Internacional,5
+675,Bahia,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Bragantino,11
+681,Grêmio,12
+682,Vitória,13
+683,Paranaense,14
+684,Juventude,15
+685,Corinthians,16
+686,Criciúma,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Bahia,5
+675,Cruzeiro,6
+676,Internacional,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Grêmio,11
+681,Bragantino,12
+682,Criciúma,13
+683,Paranaense,14
+684,Juventude,15
+685,Corinthians,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Bahia,5
+675,Flamengo,6
+676,Internacional,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Bragantino,10
+680,Grêmio,11
+681,Vasco da Gama,12
+682,Criciúma,13
+683,Paranaense,14
+684,Juventude,15
+685,Corinthians,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Internacional,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Criciúma,10
+680,Corinthians,11
+681,Vasco da Gama,12
+682,Bragantino,13
+683,Grêmio,14
+684,Paranaense,15
+685,Juventude,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Internacional,5
+675,Bahia,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Bragantino,11
+681,Corinthians,12
+682,Paranaense,13
+683,Juventude,14
+684,Grêmio,15
+685,Vitória,16
+686,Criciúma,17
+687,Fluminense,18
+688,AC Goianiense,19
+689,Cuiabá EC,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Cruzeiro,6
+676,Flamengo,7
+677,Internacional,8
+678,Mineiro,9
+679,Corinthians,10
+680,Bragantino,11
+681,Vasco da Gama,12
+682,Criciúma,13
+683,Grêmio,14
+684,Vitória,15
+685,Juventude,16
+686,Fluminense,17
+687,Paranaense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Bahia,5
+675,Internacional,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Corinthians,11
+681,Criciúma,12
+682,Juventude,13
+683,Vitória,14
+684,Bragantino,15
+685,Grêmio,16
+686,Paranaense,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Flamengo,5
+675,Internacional,6
+676,Bahia,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Criciúma,11
+681,Corinthians,12
+682,Grêmio,13
+683,Bragantino,14
+684,Juventude,15
+685,Vitória,16
+686,Paranaense,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Internacional,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Grêmio,11
+681,Criciúma,12
+682,Paranaense,13
+683,Juventude,14
+684,Bragantino,15
+685,Vitória,16
+686,Corinthians,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Flamengo,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Internacional,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Grêmio,11
+681,Criciúma,12
+682,Corinthians,13
+683,Juventude,14
+684,Vitória,15
+685,Paranaense,16
+686,Bragantino,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Flamengo,6
+676,Cruzeiro,7
+677,Internacional,8
+678,Mineiro,9
+679,Bragantino,10
+680,Corinthians,11
+681,Criciúma,12
+682,Vasco da Gama,13
+683,Grêmio,14
+684,Vitória,15
+685,Paranaense,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Grêmio,11
+681,Criciúma,12
+682,Corinthians,13
+683,Paranaense,14
+684,Juventude,15
+685,Bragantino,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,São Paulo,3
+673,Fortaleza,4
+674,Cruzeiro,5
+675,Internacional,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Criciúma,11
+681,Grêmio,12
+682,Vitória,13
+683,Corinthians,14
+684,Bragantino,15
+685,Paranaense,16
+686,Fluminense,17
+687,Juventude,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Bahia,7
+677,Flamengo,8
+678,Mineiro,9
+679,Paranaense,10
+680,Criciúma,11
+681,Vasco da Gama,12
+682,Bragantino,13
+683,Corinthians,14
+684,Juventude,15
+685,Vitória,16
+686,Grêmio,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Fortaleza,2
+672,Botafogo,3
+673,São Paulo,4
+674,Bahia,5
+675,Cruzeiro,6
+676,Internacional,7
+677,Flamengo,8
+678,Mineiro,9
+679,Criciúma,10
+680,Vasco da Gama,11
+681,Bragantino,12
+682,Corinthians,13
+683,Vitória,14
+684,Juventude,15
+685,Grêmio,16
+686,Fluminense,17
+687,Paranaense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Cruzeiro,6
+676,Internacional,7
+677,Flamengo,8
+678,Mineiro,9
+679,Bragantino,10
+680,Vasco da Gama,11
+681,Grêmio,12
+682,Criciúma,13
+683,Paranaense,14
+684,Juventude,15
+685,Corinthians,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Internacional,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Corinthians,10
+680,Bragantino,11
+681,Vasco da Gama,12
+682,Paranaense,13
+683,Juventude,14
+684,Vitória,15
+685,Criciúma,16
+686,Grêmio,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Internacional,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Bragantino,10
+680,Corinthians,11
+681,Vasco da Gama,12
+682,Paranaense,13
+683,Vitória,14
+684,Juventude,15
+685,Fluminense,16
+686,Criciúma,17
+687,Grêmio,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Flamengo,5
+675,Internacional,6
+676,Bahia,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Criciúma,10
+680,Vasco da Gama,11
+681,Bragantino,12
+682,Grêmio,13
+683,Corinthians,14
+684,Paranaense,15
+685,Vitória,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Flamengo,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Juventude,10
+680,Corinthians,11
+681,Criciúma,12
+682,Vasco da Gama,13
+683,Bragantino,14
+684,Grêmio,15
+685,Paranaense,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Flamengo,7
+677,Bahia,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Criciúma,11
+681,Bragantino,12
+682,Grêmio,13
+683,Vitória,14
+684,Corinthians,15
+685,Paranaense,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Flamengo,6
+676,Bahia,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Criciúma,10
+680,Vasco da Gama,11
+681,Vitória,12
+682,Corinthians,13
+683,Juventude,14
+684,Grêmio,15
+685,Bragantino,16
+686,Paranaense,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Bahia,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Vasco da Gama,9
+679,Mineiro,10
+680,Paranaense,11
+681,Grêmio,12
+682,Bragantino,13
+683,Corinthians,14
+684,Criciúma,15
+685,Juventude,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,Bahia,4
+674,Internacional,5
+675,São Paulo,6
+676,Cruzeiro,7
+677,Flamengo,8
+678,Mineiro,9
+679,Corinthians,10
+680,Grêmio,11
+681,Bragantino,12
+682,Criciúma,13
+683,Paranaense,14
+684,Juventude,15
+685,Vasco da Gama,16
+686,Fluminense,17
+687,Vitória,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Cruzeiro,5
+675,Flamengo,6
+676,Bahia,7
+677,Internacional,8
+678,Vasco da Gama,9
+679,Mineiro,10
+680,Bragantino,11
+681,Criciúma,12
+682,Paranaense,13
+683,Grêmio,14
+684,Corinthians,15
+685,Juventude,16
+686,Vitória,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Botafogo,1
+671,Palmeiras,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Bahia,5
+675,Flamengo,6
+676,Cruzeiro,7
+677,Internacional,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Criciúma,11
+681,Grêmio,12
+682,Bragantino,13
+683,Corinthians,14
+684,Paranaense,15
+685,Vitória,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Cruzeiro,6
+676,Flamengo,7
+677,Bahia,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Criciúma,11
+681,Corinthians,12
+682,Paranaense,13
+683,Bragantino,14
+684,Vitória,15
+685,Juventude,16
+686,Grêmio,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Internacional,5
+675,Flamengo,6
+676,Cruzeiro,7
+677,Bahia,8
+678,Mineiro,9
+679,Vasco da Gama,10
+680,Grêmio,11
+681,Bragantino,12
+682,Paranaense,13
+683,Vitória,14
+684,Criciúma,15
+685,Corinthians,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20
+670,Palmeiras,1
+671,Botafogo,2
+672,Fortaleza,3
+673,São Paulo,4
+674,Flamengo,5
+675,Bahia,6
+676,Internacional,7
+677,Cruzeiro,8
+678,Mineiro,9
+679,Criciúma,10
+680,Vasco da Gama,11
+681,Paranaense,12
+682,Grêmio,13
+683,Corinthians,14
+684,Bragantino,15
+685,Vitória,16
+686,Juventude,17
+687,Fluminense,18
+688,Cuiabá EC,19
+689,AC Goianiense,20

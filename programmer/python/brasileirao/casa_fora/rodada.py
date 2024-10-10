@@ -4,19 +4,19 @@ from scipy.stats import poisson
 
 
 def rodar(i, df3, df4):
-   
+
     eqA = df3['equipeA'][i]
     eqB = df3['equipeB'][i]
     off_A = df4[df4['equipe'] == eqA]['off_c'].values[0]
     off_B = df4[df4['equipe'] == eqB]['off_f'].values[0]
     def_A = df4[df4['equipe'] == eqA]['def_c'].values[0]
     def_B = df4[df4['equipe'] == eqB]['def_f'].values[0]
-    
-    gol_A = off_A * def_B 
-    gol_B = off_B * def_A 
+
+    gol_A = off_A * def_B * 1.05
+    gol_B = off_B * def_A * 0.95
 
     resul_A = np.random.poisson(off_A, 3)
-    #resul_A = [x for x in resul_A if x <= 4]
+    # resul_A = [x for x in resul_A if x <= 4]
 
     probab_A = np.around(poisson.pmf(
         k=resul_A, mu=gol_A)*100, decimals=1)
@@ -25,7 +25,7 @@ def rodar(i, df3, df4):
     prob_A = prob_A.groupby(0).sum()
 
     resul_B = np.random.poisson(off_B, 3)
-    #resul_B = [x for x in resul_B if x <= 4]
+    # resul_B = [x for x in resul_B if x <= 4]
 
     probab_B = np.around(poisson.pmf(
         k=resul_B, mu=gol_B)*100, decimals=1)

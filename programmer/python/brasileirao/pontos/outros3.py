@@ -5,7 +5,7 @@ import outros2
 import rodada
 import resultado
 
-obt = obter.obt('BSA', 2023)
+obt = obter.obt('BSA', 2024)
 tab = obt[0]
 df2 = obt[1]
 
@@ -13,8 +13,8 @@ rod = 1
 posicao = pd.DataFrame()
 
 
-for ii in range(1,15):
-    print(ii)
+for ii in range(1, 150):
+    # print(ii)
     df5 = tab
     while True:
 

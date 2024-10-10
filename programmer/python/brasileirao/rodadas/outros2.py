@@ -13,8 +13,8 @@ def out2(dados2):
     dados2['def'] = round(dados2['g_con']/(dados2['rod']), 2)
     dados2['soma_vit'] = round(dados2['soma_vit']/(dados2['rod']), 2)
 
-    dados2['off'] = dados2['off'].rolling(window=2).mean()
-    dados2['def'] = dados2['def'].rolling(window=2).mean()
+    dados2['off'] = dados2['off'].rolling(window=5).mean()
+    dados2['def'] = dados2['def'].rolling(window=5).mean()
     dados2 = dados2.dropna()
 
     dados2 = dados2.drop(['feito', 'sofr', 'result'], axis=1)
