@@ -1,0 +1,1 @@
+start /min python.exe d:/git/code/programmer/python/escala/tela.py
