@@ -1,94 +1,131 @@
 import tkinter as tk
 from tkinter import messagebox
-import csv
+import pandas as pd
 import src.gerar as gerar
 import src.merge as merge
 
-# Função para chamar o script gerar.py e exibir o retorno
-def chamar_gerar():
+# Funções de lógica de negócio
+def chamar_gerar(entrada_ano, entrada_mes, entrada_local, opcoes_local):
+    """
+    Chama o script 'gerar.py' para gerar escalas, usando os valores de ano, mês e local,
+    exibindo uma mensagem de sucesso ou erro.
+    """
     ano = entrada_ano.get()
     mes = entrada_mes.get()
     local = entrada_local.get()
     try:
-        # Chama o script principal e captura o retorno
         gerar.main(ano, mes, local, opcoes_local)
-        messagebox.showinfo("Sucesso", f"Escalas gerado com sucesso para o ano {ano} e mês {mes}.")
-
-        
+        messagebox.showinfo("Sucesso", f"Escalas geradas com sucesso para o ano {ano} e mês {mes}.")
     except Exception as e:
-        # Exibe um popup em caso de erro
         messagebox.showerror("Erro", f"Erro ao gerar: {e}")
 
-# Função para chamar o script imprimir.py e gerar o PDF
-def chamar_pdf():
+def chamar_pdf(entrada_ano, entrada_mes):
+    """
+    Chama o script 'merge.py' para gerar um PDF com base nos valores de ano e mês,
+    exibindo uma mensagem de sucesso ou erro.
+    """
     ano = entrada_ano.get()
     mes = entrada_mes.get()
     try:
-        # Passa os parâmetros (ano, mês) para o script imprimir.py
         merge.main(ano, mes)
         messagebox.showinfo("Sucesso", f"PDF gerado com sucesso para o ano {ano} e mês {mes}.")
     except Exception as e:
         messagebox.showerror("Erro", f"Erro ao gerar PDF: {e}")
 
-# Função para ler o arquivo CSV e pegar os locais únicos
 def carregar_locais_do_csv(arquivo_csv):
-    locais = set()  # Utiliza um conjunto para evitar duplicações
+    """
+    Carrega o arquivo CSV, extrai os locais únicos e os retorna como uma lista.
+    """
     try:
-        with open(arquivo_csv, newline='', encoding='utf-8') as csvfile:
-            leitor_csv = csv.DictReader(csvfile, delimiter=';')  # Lê o arquivo como dicionário
-            for linha in leitor_csv:
-                locais.add(linha['local'])  # Adiciona o local ao conjunto
-        
-        locais_ordenados = sorted(locais)  # Ordena os locais
-        if '_TODOS' not in locais_ordenados:
-            locais_ordenados.insert(0, '_TODOS')  # Garante que '_TODOS' seja o primeiro na lista
-        return locais_ordenados  # Retorna a lista de locais ordenada
+        df = pd.read_csv(arquivo_csv, delimiter=';', encoding='utf-8')
+        locais = sorted(df['local'].drop_duplicates())
+        if '_TODOS' not in locais:
+            locais.insert(0, '_TODOS')
+        return locais
     except FileNotFoundError:
         messagebox.showerror("Erro", f"Arquivo {arquivo_csv} não encontrado.")
         return []
+    except Exception as e:
+        messagebox.showerror("Erro", f"Erro ao carregar o CSV: {e}")
+        return []
 
-# Configuração da janela principal
-janela = tk.Tk()
-janela.title("Gerador de Escala")
-janela.geometry("400x250")
+# Funções de UI
+def criar_entradas(janela):
+    """
+    Cria as caixas de entrada para ano, mês e local na janela principal.
+    """
+    # Entrada de Ano
+    label_ano = tk.Label(janela, text="Ano", font=("Arial", 10, "bold"))
+    label_ano.grid(row=1, column=0, padx=10, pady=5, sticky="w", ipadx=10)
+    entrada_ano = tk.Entry(janela)
+    entrada_ano.grid(row=1, column=1, padx=10, pady=5, ipadx=10)
 
-# Título da janela centralizado
-titulo = tk.Label(janela, text="Gerador de Escala", font=("Helvetica", 16))
-titulo.grid(row=0, column=0, columnspan=2, padx=10, pady=10, sticky="n")
+    # Entrada de Mês
+    label_mes = tk.Label(janela, text="Mês", font=("Arial", 10, "bold"))
+    label_mes.grid(row=2, column=0, padx=10, pady=5, sticky="w", ipadx=10)
+    entrada_mes = tk.Entry(janela)
+    entrada_mes.grid(row=2, column=1, padx=10, pady=5, ipadx=10)
 
-# Configuração dos rótulos e caixas de entrada
-label_ano = tk.Label(janela, text="Ano", font=("Arial", 10, "bold"))
-label_ano.grid(row=1, column=0, padx=10, pady=5, sticky="w", ipadx=10)
-entrada_ano = tk.Entry(janela)
-entrada_ano.grid(row=1, column=1, padx=10, pady=5, ipadx=10)
+    return entrada_ano, entrada_mes
 
-label_mes = tk.Label(janela, text="Mês", font=("Arial", 10, "bold"))
-label_mes.grid(row=2, column=0, padx=10, pady=5, sticky="w", ipadx=10)
-entrada_mes = tk.Entry(janela)
-entrada_mes.grid(row=2, column=1, padx=10, pady=5, ipadx=10)
+def criar_selecao_local(janela, arquivo_csv):
+    """
+    Cria o menu de seleção para o local, carregando os valores únicos do CSV.
+    """
+    # Rótulo para o Local
+    label_local = tk.Label(janela, text="Local:", font=("Arial", 10, "bold"))
+    label_local.grid(row=3, column=0, padx=10, pady=5, sticky="w", ipadx=10)
 
-# Configuração do rótulo e menu de seleção para o local
-label_local = tk.Label(janela, text="Local:", font=("Arial", 10, "bold"))
-label_local.grid(row=3, column=0, padx=10, pady=5, sticky="w", ipadx=10)
+    # Variável associada ao OptionMenu
+    entrada_local = tk.StringVar(janela)
+    entrada_local.set("_TODOS")
 
-# Variável associada ao OptionMenu
-entrada_local = tk.StringVar(janela)
-entrada_local.set("_TODOS")  # Definir valor padrão como "_TODOS"
+    # Carregar locais únicos do CSV
+    opcoes_local = carregar_locais_do_csv(arquivo_csv)
 
-# Carrega os locais únicos do arquivo CSV
-arquivo_csv = 'dados/funcionarios.csv'
-opcoes_local = carregar_locais_do_csv(arquivo_csv)
+    # Criando o OptionMenu
+    local_menu = tk.OptionMenu(janela, entrada_local, *opcoes_local)
+    local_menu.grid(row=3, column=1, padx=5, pady=5, ipadx=26)
 
-# Criando o OptionMenu para a seleção do local
-local_menu = tk.OptionMenu(janela, entrada_local, *opcoes_local)
-local_menu.grid(row=3, column=1, padx=5, pady=5, ipadx=26)
+    return entrada_local, opcoes_local
 
-# Botões para Gerar e Imprimir
-botao_gerar = tk.Button(janela, text="Gerar PDF", command=chamar_pdf)
-botao_gerar.grid(row=4, column=0, padx=10, pady=10, sticky="w")
+def criar_botoes(janela, entrada_ano, entrada_mes, entrada_local, opcoes_local):
+    """
+    Cria os botões para gerar PDF e escalas, associando suas funções.
+    """
+    # Botão Gerar PDF
+    botao_gerar = tk.Button(janela, text="Gerar PDF", 
+                            command=lambda: chamar_pdf(entrada_ano, entrada_mes))
+    botao_gerar.grid(row=4, column=0, padx=10, pady=10, sticky="w")
 
-botao_imprimir = tk.Button(janela, text="Gerar Escalas", command=chamar_gerar)
-botao_imprimir.grid(row=4, column=1, padx=10, pady=10, sticky="e")
+    # Botão Gerar Escalas
+    botao_imprimir = tk.Button(janela, text="Gerar Escalas", 
+                               command=lambda: chamar_gerar(entrada_ano, entrada_mes, entrada_local, opcoes_local))
+    botao_imprimir.grid(row=4, column=1, padx=10, pady=10, sticky="e")
 
-# Inicia o loop da interface gráfica
-janela.mainloop()
+# Função principal para inicialização da interface gráfica
+def inicializar_interface():
+    """
+    Configura e inicializa a interface gráfica do aplicativo.
+    """
+    janela = tk.Tk()
+    janela.title("Gerador de Escala")
+    janela.geometry("400x250")
+
+    # Título da janela
+    titulo = tk.Label(janela, text="Gerador de Escala", font=("Helvetica", 16))
+    titulo.grid(row=0, column=0, columnspan=2, padx=10, pady=10, sticky="n")
+
+    # Criação de entradas e seleção de local
+    entrada_ano, entrada_mes = criar_entradas(janela)
+    entrada_local, opcoes_local = criar_selecao_local(janela, 'dados/funcionarios.csv')
+
+    # Criação de botões
+    criar_botoes(janela, entrada_ano, entrada_mes, entrada_local, opcoes_local)
+
+    # Iniciar o loop da interface gráfica
+    janela.mainloop()
+
+# Executar o programa
+if __name__ == "__main__":
+    inicializar_interface()

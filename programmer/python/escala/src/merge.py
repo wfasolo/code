@@ -1,7 +1,7 @@
 import os
 import pandas as pd
-import src.imprimir as imprimir
-
+import src.criar_pdf as criar_pdf
+from src.ferias import processar_ferias
 
 # Função para processar todos os arquivos do diretório
 def processar_diretorio(diretorio, ano, mes):
@@ -24,8 +24,7 @@ def agrupar_arquivos_por_substring(diretorio):
     for nome_arquivo in os.listdir(diretorio):
         if len(nome_arquivo) >= 10:
             substring = nome_arquivo[6:10]
-            arquivos_por_substring.setdefault(
-                substring, []).append(nome_arquivo)
+            arquivos_por_substring.setdefault(substring, []).append(nome_arquivo)
     return arquivos_por_substring
 
 # Função principal para processar arquivos CSV e substituir funcionários de férias
@@ -47,12 +46,9 @@ def processar_arquivos_csv(arquivos_csv, diretorio, ano, mes):
         if 'Funcionario' in df_temp.columns:
             df_base[f'Funcionario_{i}'] = df_temp['Funcionario']
         else:
-            print(
-                f"A coluna 'Funcionario' não foi encontrada no arquivo {arquivo}")
+            print(f"A coluna 'Funcionario' não foi encontrada no arquivo {arquivo}")
 
     # Salva ou processa o DataFrame final
-
-
     colunas_renomear = {}
     if 'Funcionario' in df_base.columns:
         colunas_renomear['Funcionario'] = 'Tratamento'
@@ -63,54 +59,14 @@ def processar_arquivos_csv(arquivos_csv, diretorio, ano, mes):
     df_base = df_base.rename(columns=colunas_renomear)
     
     arq = arquivos_csv[0]
-    imprimir.main(df_base, ano, mes, arq[:-4])
-
-# Função para processar apenas os quatro primeiros funcionários de férias
-def processar_ferias(df):
-    """
-    Seleciona os quatro primeiros funcionários e processa suas substituições em caso de férias.
-    """
-    quatro_primeiros_funcionarios = df["Funcionario"].head(4).tolist()
-    df = processar_dataframe(df, quatro_primeiros_funcionarios)
-    return df
-
-# Função para processar o DataFrame e substituir funcionários de férias
-def processar_dataframe(df, lista_funcionarios):
-    """
-    Substitui funcionários que estão de férias com base na lista de substitutos.
-    """
-    indice_substituicao = 0
-    for i, row in df.iterrows():
-        novo_funcionario, indice_substituicao = substituir_funcionario(
-            row, lista_funcionarios, indice_substituicao)
-        df.at[i, "Funcionario"] = novo_funcionario
-    return df
-
-# Função para substituir o funcionário em caso de férias
-def substituir_funcionario(row, lista_funcionarios, indice_substituicao):
-    """
-    Substitui o funcionário se ele estiver de férias (Ferias = 1).
-    Percorre a lista de funcionários disponíveis e atribui um substituto.
-    """
-    if row["Ferias"] == 1:
-        while lista_funcionarios[indice_substituicao] == row["Funcionario"]:
-            # Evita atribuir o mesmo funcionário e avança na lista
-            indice_substituicao = (
-                indice_substituicao + 1) % len(lista_funcionarios)
-        substituto = 'Férias: '+lista_funcionarios[indice_substituicao]
-        indice_substituicao = (indice_substituicao +
-                               1) % len(lista_funcionarios)
-        return substituto, indice_substituicao
-    else:
-        return row["Funcionario"], indice_substituicao
+    criar_pdf.main(df_base, ano, mes, arq[:-4])
 
 # Execução principal do script
-def main(ano,mes):
-        # Parâmetros globais
-
+def main(ano, mes):
+    # Parâmetros globais
     diretorio = f'escalas/{ano}/{mes}'
     processar_diretorio(diretorio, ano, mes)
 
-# Executar o programa
+# Se precisar executar diretamente:
 #if __name__ == "__main__":
-#    main()
+#    main(2023, 10)

@@ -109,7 +109,3 @@ def main(df, ano, mes, arq):
     obter = [0, ano, mes, arq]
     gerar_pdf(df, obter)
 
-# Executar o programa
-#if __name__ == "__main__":
-    # Exemplo de DataFrame para teste
-#    main()
