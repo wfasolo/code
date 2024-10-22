@@ -1,8 +1,8 @@
 import pandas as pd
 
 
-def res():
-    df = pd.read_csv("dados/posicao.csv")
+def res(df):
+    #df = pd.read_csv("dados/posicao.csv")
     tabela = pd.DataFrame()
     for i in range(0, 21):
         cont_pos = df[df["pos"] == i].groupby("equipe").size()
@@ -33,7 +33,7 @@ def res():
     tabela.index = tabela.index + 1
     return tabela
 
-
+'''
 new_df = res()
 # Somando colunas anteriores (C2 a C16)
 new_df.iloc[:, 1:16] = new_df.iloc[:, 1:16].cumsum(axis=1)
@@ -48,4 +48,5 @@ numerical_cols = new_df.select_dtypes(
 new_df[numerical_cols] = new_df[numerical_cols].where(
     (new_df[numerical_cols] >= 1) & (new_df[numerical_cols] <= 96), '-')
 
-print(new_df)
+print('>>>>>>>>>>>>>>>>>>',new_df)
+'''

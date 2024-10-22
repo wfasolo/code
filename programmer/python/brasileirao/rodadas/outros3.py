@@ -13,7 +13,7 @@ rod = 1
 posicao = pd.DataFrame()
 
 
-for ii in range(1, 2):
+for ii in range(1, 500):
     df5 = tab
     while True:
         df = outros2.out2(outros1.out1(df5)).reset_index(drop=True)
@@ -34,12 +34,13 @@ for ii in range(1, 2):
     final = final.dropna()
     final["pos"] = (final["index"] - final["index"].min()) + 1
     posicao = pd.concat([posicao, final], ignore_index=True)
-
+    
     if ii % 25 == 0:
         print(ii)
-        print(resultado.res())
+        print(resultado.res(posicao))
 
-    posicao.to_csv("dados/posicao.csv", index=False)
 if ii % 25 != 0:
-    print(resultado.res())
+    print(resultado.res(posicao))
 
+input("Pressione QQ tecla pra sair!!!")
+posicao.to_csv("dados/posicao.csv", index=False)

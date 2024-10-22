@@ -15,21 +15,21 @@ ESP8266WiFiMulti multiWiFi;
 
 unsigned long cont = 0;
 bool forcereboot = false, iniciar = false;
-float md_ler[3] = { 30, 30, 30 };
-float altura = 25, altura2 = 25, pulso = 0, dist = 85;
-float vz_min = 100, vz_hor = 100, vz_dia = 100, vazao = 100, vz_min2 = 100;
+float md_ler[3] = {28, 28, 28};
+float altura = 28, altura2 = 28, pulso = 0, dist = 85;
+float vz_min = 110, vz_hor = 110, vz_dia = 110, vazao = 110, vz_min2 = 110;
 int dia = 0, hora = 0, minuto = 0, segundo = 30;
 int i_d = 0, i_h = 0, i_m = 0, i_inic = 0;
 int est2 = 0, vol_trat;
-
 
 #define USERNAME "w_fasolo"
 #define DEVICE_ID "vazao_BJI"
 #define DEVICE_CREDENTIAL "cedaebji"
 ThingerESP8266 thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL);
 
-void setup() {
-  //Serial.begin(115200);
+void setup()
+{
+  // Serial.begin(115200);
   pinMode(LED_BUILTIN, OUTPUT);
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
@@ -46,31 +46,41 @@ void setup() {
   WiFi.persistent(true);
   ntp.begin();
 
-  thing["Rede"] >> [](pson &out) {
+  thing["Rede"] >> [](pson &out)
+  {
     out["SSID"] = WiFi.SSID();
     out["Sinal"] = WiFi.RSSI();
   };
 
-  thing["Vz_media"] >> [](pson &out) {
+  thing["Vz_media"] >> [](pson &out)
+  {
     out = int(vazao);
   };
-  thing["Vz_min"] >> [](pson &out) {
+  thing["Vz_min"] >> [](pson &out)
+  {
     out = int(vz_min2);
   };
-  thing["Vz_hor"] >> [](pson &out) {
+  thing["Vz_hor"] >> [](pson &out)
+  {
     out = int(vz_hor);
   };
-  thing["Vol_trat"] >> [](pson &out) {
+  thing["Vol_trat"] >> [](pson &out)
+  {
     out = vol_trat;
   };
-  thing["Altura"] >> [](pson &out) {
+  thing["Altura"] >> [](pson &out)
+  {
     out = altura;
   };
 
-  thing["Reiniciar"] << [](pson &in) {
-    if (in.is_empty()) {
+  thing["Reiniciar"] << [](pson &in)
+  {
+    if (in.is_empty())
+    {
       in = forcereboot;
-    } else {
+    }
+    else
+    {
       forcereboot = in ? true : false;
     }
   };
@@ -78,12 +88,12 @@ void setup() {
   ntp.forceUpdate();
 }
 
-void loop() {
+void loop()
+{
   thing.handle();
   conectar();
   at_hora();
   media2();
   ler_vazao();
   reb_esp();
-
 }

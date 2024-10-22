@@ -1,6 +1,8 @@
 //**** verificar conexão ****//
-void conectar() {
-  if (multiWiFi.run() != WL_CONNECTED) {
+void conectar()
+{
+  if (multiWiFi.run() != WL_CONNECTED)
+  {
     WiFi.disconnect();
     digitalWrite(LED_BUILTIN, LOW);
     iniciar = false;
@@ -10,15 +12,17 @@ void conectar() {
 }
 
 //**** Reiniciar NodeMCU ****//
-void reb_esp() {
-  if (forcereboot == true) {
+void reb_esp()
+{
+  if (forcereboot == true)
+  {
     ESP.restart();
   }
 }
 
-
 //**** Atualizacao da hora ****//
-void at_hora() {
+void at_hora()
+{
   dia = ntp.getDay();
   hora = ntp.getHours();
   minuto = ntp.getMinutes();
@@ -26,9 +30,12 @@ void at_hora() {
 }
 
 // parametros de iniciação //
-void inicio() {
-  if (iniciar == false) {
-    if (multiWiFi.run() == WL_CONNECTED) {
+void inicio()
+{
+  if (iniciar == false)
+  {
+    if (multiWiFi.run() == WL_CONNECTED)
+    {
       ntp.forceUpdate();
 
       pson data;
@@ -36,7 +43,8 @@ void inicio() {
       dist = data["Distancia"];
       pulso = data["Pulso"];
 
-      if (i_inic > 2) {
+      if (i_inic > 2)
+      {
         iniciar = true;
         i_inic = 0;
       }
