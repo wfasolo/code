@@ -55,7 +55,6 @@ float kalmanFilterAdaptive(float measurement) {
 }
 
     
-    // Aplicação do filtro de Kalman adaptativo para suavizar a medição
-    float filteredHeight = kalmanFilterAdaptive(measuredHeight);
+
     
     
